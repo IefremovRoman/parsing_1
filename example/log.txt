@@ -1,0 +1,4643 @@
+
+Prom.ua parser started at Wed Dec 11 15:55:20 2019
+File created!
+Headers:
+{'User-Agent': 'Mozilla/5.0 (Windows NT 5.1; rv:25.0) Gecko/20100101 '
+               'Firefox/25.0',
+ 'accept': '*/*',
+ 'accept-encoding': 'gzip, deflate, br',
+ 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'}
+
+Proxies loaded:
+
+['62.150.72.99:8080',
+ '36.89.229.97:35098',
+ '54.208.83.109:80',
+ '95.210.2.206:56790',
+ '139.5.237.163:35411',
+ '180.183.114.152:8213',
+ '54.245.141.216:8888',
+ '43.245.202.15:57396',
+ '67.205.174.209:3128',
+ '198.199.120.102:3128',
+ '34.90.64.64:8888',
+ '45.5.94.116:35258',
+ '196.3.97.34:23500',
+ '58.153.112.168:8080',
+ '45.55.27.161:3128',
+ '89.111.105.85:41258',
+ '103.28.86.241:61954',
+ '114.110.22.90:43221',
+ '94.231.80.100:3128',
+ '170.81.141.37:53281',
+ '213.174.10.58:56852',
+ '136.228.128.14:61158',
+ '45.79.50.63:8132',
+ '216.228.69.202:32170',
+ '217.219.179.60:5220',
+ '207.154.231.213:8080',
+ '91.219.56.221:8080',
+ '111.92.240.134:30598',
+ '50.197.38.230:60724',
+ '49.51.70.42:1080',
+ '45.113.64.129:8080',
+ '216.169.73.65:40344',
+ '67.205.149.230:8080',
+ '3.8.134.151:80',
+ '103.204.171.202:53281',
+ '162.243.108.141:3128',
+ '94.180.106.94:32767',
+ '162.243.108.141:3128',
+ '193.41.88.58:53281',
+ '181.129.55.44:44749',
+ '95.31.17.7:3128',
+ '195.171.16.146:8080',
+ '75.73.50.82:80',
+ '85.175.216.32:53281',
+ '103.250.156.22:30093',
+ '188.235.107.7:60205',
+ '64.17.30.238:63141',
+ '103.225.206.22:31777',
+ '202.179.7.182:46948',
+ '164.39.202.75:53281',
+ '67.205.146.29:8080',
+ '138.204.23.66:53281',
+ '134.209.23.176:80',
+ '103.74.108.145:33831',
+ '138.68.24.145:8080',
+ '24.172.225.122:53281',
+ '3.15.217.158:8888',
+ '41.216.230.148:41351',
+ '119.82.253.63:34110',
+ '77.94.144.162:3128',
+ '213.16.81.189:54040',
+ '206.189.30.235:80',
+ '65.152.119.226:35090',
+ '163.43.23.68:8080',
+ '41.190.95.20:56167',
+ '5.39.82.135:8125',
+ '162.248.247.153:32592',
+ '46.229.67.198:47437',
+ '185.208.100.198:56074',
+ '45.79.50.63:8132',
+ '45.79.40.158:8113',
+ '166.249.185.131:33767',
+ '185.94.215.235:53281',
+ '37.232.13.54:51296',
+ '103.100.79.2:33048',
+ '54.208.83.109:80',
+ '196.41.102.130:41170',
+ '151.253.165.70:8080',
+ '3.93.103.201:8080',
+ '191.242.182.132:8081',
+ '77.68.77.181:80',
+ '200.89.174.109:8080',
+ '209.80.12.180:80',
+ '24.217.192.131:57273',
+ '103.11.107.67:53398',
+ '103.255.53.98:55969',
+ '125.141.219.117:80',
+ '193.178.50.49:3128',
+ '103.225.228.233:58732',
+ '186.219.213.67:60446',
+ '49.51.193.134:1080',
+ '202.168.158.163:32307',
+ '95.156.125.190:41870',
+ '36.89.182.3:50733',
+ '139.59.62.255:3128',
+ '110.172.135.234:44762',
+ '95.84.168.158:58137',
+ '192.169.156.163:80',
+ '85.234.126.107:55555',
+ '89.216.48.230:44061',
+ '170.0.48.38:57867',
+ '207.144.111.230:8080',
+ '75.146.218.153:55768',
+ '207.154.231.212:8080',
+ '130.185.79.95:443',
+ '202.136.88.58:38210',
+ '46.98.74.38:53281',
+ '41.217.216.45:33602',
+ '138.197.104.219:3128',
+ '174.127.155.118:32505',
+ '103.250.70.9:51370',
+ '167.172.32.233:3128',
+ '216.228.69.202:32170',
+ '51.38.22.57:8522',
+ '41.190.147.158:49088',
+ '36.66.126.71:35036',
+ '216.169.73.65:40344',
+ '213.33.224.82:8080',
+ '207.154.231.216:3128',
+ '91.206.210.54:56631',
+ '119.15.82.222:37790',
+ '187.53.61.50:80',
+ '96.30.195.225:3128',
+ '74.113.173.78:47208',
+ '114.134.191.194:31867',
+ '192.140.42.28:39653',
+ '103.242.14.8:48791',
+ '45.61.116.145:80',
+ '93.76.211.56:51752',
+ '103.141.123.6:41674',
+ '198.199.120.102:3128',
+ '148.251.200.194:1080',
+ '203.77.229.124:8080',
+ '110.77.132.217:8213',
+ '168.196.204.16:52821',
+ '103.225.228.233:58732',
+ '23.101.2.247:81',
+ '45.55.27.161:3128',
+ '198.58.45.195:80',
+ '84.19.38.41:51885',
+ '18.216.230.166:80',
+ '8.209.95.100:3128',
+ '177.135.228.3:53281',
+ '138.68.165.154:3128',
+ '212.200.27.134:8080',
+ '105.235.197.162:32997',
+ '107.178.4.215:31376',
+ '84.42.253.252:52854',
+ '138.197.204.55:8080',
+ '103.106.32.242:49714',
+ '187.111.192.146:44794',
+ '128.199.185.154:3128',
+ '86.57.219.185:23500',
+ '81.200.63.108:60579',
+ '154.73.108.49:53281',
+ '86.57.177.8:54296',
+ '79.115.245.227:8080',
+ '5.23.103.98:43788',
+ '118.99.100.248:8080',
+ '63.246.57.113:46312',
+ '37.111.42.210:8080',
+ '69.65.65.178:57556',
+ '105.235.193.94:46748',
+ '24.106.221.230:53281',
+ '47.89.244.225:808',
+ '182.253.121.26:23500',
+ '69.243.237.81:8080',
+ '138.68.41.90:3128',
+ '212.95.180.50:53281',
+ '104.3.189.30:38087',
+ '162.243.108.129:3128',
+ '49.51.195.24:1080',
+ '81.200.63.108:60579',
+ '12.218.209.130:53281',
+ '61.238.82.203:8080',
+ '159.203.166.41:8080',
+ '47.89.193.30:8118',
+ '62.85.57.43:53281',
+ '54.174.149.97:80',
+ '23.80.121.202:30201',
+ '103.105.212.106:53281',
+ '69.130.120.228:46439',
+ '103.70.147.239:39850',
+ '148.251.186.160:1080',
+ '119.82.252.122:36182',
+ '98.0.162.70:35576',
+ '181.129.74.58:34999',
+ '208.98.185.89:53630',
+ '45.234.200.18:53281',
+ '91.207.238.107:57164',
+ '167.172.32.233:3128',
+ '138.186.21.86:53281',
+ '151.248.112.28:3128',
+ '8.209.95.81:3128',
+ '202.138.247.155:8080',
+ '8.209.94.61:3128',
+ '139.59.109.156:3128',
+ '49.51.68.122:1080',
+ '98.172.142.205:8080',
+ '202.182.48.86:57942',
+ '157.230.162.226:8118',
+ '138.255.32.65:34641',
+ '182.52.51.43:36601',
+ '118.172.211.37:58728',
+ '217.64.109.231:45282',
+ '104.198.232.184:80',
+ '159.224.182.206:44280',
+ '91.207.238.107:57164',
+ '178.218.104.8:49707',
+ '178.134.123.38:8888',
+ '117.102.68.210:53281',
+ '78.60.203.75:37068',
+ '46.35.249.189:60455',
+ '41.93.47.2:58097',
+ '92.247.142.14:53281',
+ '54.169.99.254:80',
+ '47.89.244.225:808',
+ '174.138.54.49:8080',
+ '1.2.169.101:47477',
+ '188.226.141.61:3128',
+ '193.178.50.49:3128',
+ '8.209.94.142:3128',
+ '88.198.24.108:8080',
+ '49.51.193.134:1080',
+ '138.197.145.103:8080',
+ '45.123.43.66:59627',
+ '46.173.105.151:41258',
+ '78.186.237.112:53281',
+ '189.57.62.146:80',
+ '115.127.114.76:32343',
+ '192.154.104.114:8080',
+ '202.179.21.49:23500',
+ '138.197.222.35:8080',
+ '139.59.53.106:8080',
+ '5.23.103.98:43788',
+ '95.30.220.43:31838',
+ '103.9.190.206:42726',
+ '159.138.5.222:80',
+ '79.137.254.51:33143',
+ '157.119.118.122:42305',
+ '91.205.146.25:37501',
+ '157.245.190.24:80',
+ '51.38.71.101:8080',
+ '36.67.89.179:65205',
+ '139.59.64.9:8080',
+ '95.31.119.210:31135',
+ '23.101.2.247:81',
+ '173.192.128.238:8123',
+ '45.144.2.58:31165',
+ '91.187.112.173:37750',
+ '201.62.56.49:35816',
+ '103.82.43.182:51811',
+ '187.53.61.50:80',
+ '36.89.193.73:43767',
+ '70.35.213.229:36127',
+ '200.89.99.30:59968',
+ '200.41.94.121:41310',
+ '165.16.3.54:53281',
+ '103.241.204.225:8080',
+ '185.242.168.118:8080',
+ '198.199.119.119:8080',
+ '129.146.87.146:8080',
+ '46.246.43.51:8118',
+ '102.176.160.75:41696',
+ '41.254.44.244:80',
+ '177.23.104.114:41474',
+ '178.134.152.46:41054',
+ '163.43.23.68:8080',
+ '131.108.116.92:44949',
+ '176.235.99.33:55354',
+ '112.78.169.98:36963',
+ '195.182.22.178:45063',
+ '198.204.253.114:3128',
+ '96.87.184.101:43705',
+ '200.69.81.198:58593',
+ '205.158.57.2:53281',
+ '31.41.92.154:23500',
+ '5.9.218.105:1080',
+ '117.239.38.81:44937',
+ '118.69.50.154:80',
+ '27.109.117.226:55667',
+ '103.66.177.129:51062',
+ '103.141.123.2:41674',
+ '27.72.61.48:48455',
+ '63.246.57.113:46312',
+ '54.71.56.180:80',
+ '138.219.147.197:53281',
+ '161.202.226.194:8123',
+ '103.250.166.4:44472',
+ '46.246.43.51:8118',
+ '103.119.22.2:8080',
+ '95.158.63.46:49756',
+ '36.66.153.7:43596',
+ '79.125.163.225:30677',
+ '95.210.2.206:56790',
+ '18.207.44.80:80',
+ '36.67.89.179:65205',
+ '137.59.163.50:61082',
+ '94.21.118.140:50660',
+ '186.249.68.49:61982',
+ '118.97.53.99:31439',
+ '45.55.27.15:8080',
+ '212.115.224.71:53281',
+ '103.23.236.84:23500',
+ '119.15.90.38:31112',
+ '171.100.9.126:49163',
+ '86.57.181.122:56609',
+ '190.166.249.44:55906',
+ '103.119.22.2:8080',
+ '124.41.240.126:50446',
+ '159.203.91.6:8080',
+ '62.182.109.206:41258',
+ '217.61.19.109:80',
+ '186.15.233.218:45999',
+ '165.227.215.71:8080',
+ '162.144.220.192:80',
+ '204.15.243.234:50566',
+ '213.91.187.242:59853',
+ '212.13.98.62:37173',
+ '5.58.85.32:59824',
+ '212.200.27.134:8080',
+ '123.200.31.226:53281',
+ '110.232.74.233:40661',
+ '72.250.28.64:36851',
+ '167.114.169.129:8118',
+ '178.134.76.230:57804',
+ '96.27.145.145:80',
+ '212.3.208.249:51850',
+ '94.232.126.225:32836',
+ '93.152.176.249:54136',
+ '177.92.20.182:38610',
+ '103.106.35.218:54820',
+ '198.100.156.121:80',
+ '182.176.228.147:57472',
+ '173.212.202.65:80',
+ '176.110.121.90:21776',
+ '170.247.152.132:43747',
+ '8.209.94.246:3128',
+ '51.79.78.175:3128',
+ '181.211.245.74:61343',
+ '190.152.0.130:55870',
+ '95.158.63.46:49756',
+ '87.197.137.223:55622',
+ '36.89.228.201:57487',
+ '41.79.66.106:58369',
+ '119.15.90.218:35608',
+ '213.16.81.189:54040',
+ '212.33.239.50:59300',
+ '78.186.237.112:53281',
+ '173.44.34.106:34276',
+ '24.172.82.94:53281',
+ '103.231.218.30:43708',
+ '119.15.90.38:31112',
+ '41.216.230.148:41351',
+ '104.236.54.196:8080',
+ '193.117.138.126:36647',
+ '186.219.210.86:39177',
+ '190.18.207.58:53281',
+ '162.243.107.120:8080',
+ '103.212.129.81:39484',
+ '188.166.83.34:3128',
+ '138.186.21.86:53281',
+ '81.190.208.52:37947',
+ '103.227.147.142:37581',
+ '167.172.247.207:3128',
+ '95.211.89.6:8118',
+ '181.129.74.58:34999',
+ '80.84.57.227:80',
+ '185.61.92.207:43108',
+ '99.126.106.177:80',
+ '167.99.108.157:3128',
+ '78.186.237.112:53281',
+ '1.20.101.46:54381',
+ '179.180.115.193:53281',
+ '185.34.17.248:58137',
+ '186.226.183.170:30698',
+ '104.236.48.178:8080',
+ '124.81.67.226:57997',
+ '207.154.231.211:3128',
+ '119.110.205.66:80',
+ '178.62.193.19:8080',
+ '103.9.188.135:46648',
+ '41.217.216.45:33602',
+ '169.239.16.71:57629',
+ '95.67.47.94:53281',
+ '91.219.56.221:8080',
+ '194.143.151.96:43678',
+ '198.211.117.191:3128',
+ '192.241.212.27:80',
+ '114.6.227.28:8080',
+ '107.190.148.202:43147',
+ '169.57.1.84:8080',
+ '49.156.45.169:8080',
+ '45.55.23.78:3128',
+ '176.196.84.138:51336',
+ '190.109.167.98:60273',
+ '191.103.254.145:47324',
+ '54.38.110.35:47640',
+ '83.174.233.94:53160',
+ '213.91.187.242:59853',
+ '50.246.120.125:8080',
+ '50.247.207.5:49788',
+ '86.124.89.80:51978',
+ '45.79.39.170:8138',
+ '79.78.184.12:56834',
+ '118.173.232.5:34413',
+ '200.206.50.66:42515',
+ '27.255.13.134:30737',
+ '190.145.92.18:80',
+ '96.27.145.145:80',
+ '204.15.243.233:47342',
+ '200.236.221.242:31202',
+ '91.206.210.54:56631',
+ '72.250.28.64:36851',
+ '36.37.113.4:36485',
+ '103.141.123.6:41674',
+ '171.7.84.147:8213',
+ '165.227.215.62:8080',
+ '45.65.222.174:34287',
+ '170.210.80.241:3128',
+ '198.50.152.64:23500',
+ '81.163.47.154:41258',
+ '165.227.215.71:8080',
+ '212.56.203.114:30640',
+ '104.32.43.13:53281',
+ '138.219.147.197:53281',
+ '118.172.51.110:36552',
+ '202.179.7.182:46948',
+ '103.221.254.44:56471',
+ '159.203.91.6:8080',
+ '181.129.70.82:34532',
+ '35.231.135.197:80',
+ '178.168.67.89:4645',
+ '151.232.72.15:80',
+ '103.88.234.251:33156',
+ '194.135.75.74:40471',
+ '138.68.53.44:8118',
+ '84.19.38.158:51885',
+ '186.159.2.241:43459',
+ '182.52.51.36:52165',
+ '165.73.128.225:56975',
+ '118.174.232.239:39258',
+ '117.102.68.210:53281',
+ '169.255.126.231:34223',
+ '221.120.210.220:39617',
+ '96.87.184.101:43705',
+ '78.30.192.84:38929',
+ '107.189.184.53:3828',
+ '162.249.248.218:53281',
+ '74.113.173.78:47208',
+ '198.211.96.170:3128',
+ '24.37.245.42:36836',
+ '176.235.99.33:55354',
+ '8.209.95.129:3128',
+ '138.197.157.44:8080',
+ '24.113.38.149:48678',
+ '46.151.108.6:37754',
+ '114.6.88.238:60811',
+ '195.214.222.75:8080',
+ '139.59.53.107:3128',
+ '54.71.56.180:80',
+ '46.102.214.81:80',
+ '138.68.161.60:8080',
+ '45.92.197.60:80',
+ '212.200.27.134:8080',
+ '36.89.187.193:59904',
+ '50.233.228.147:8080',
+ '89.111.105.82:41258',
+ '154.41.2.154:13538',
+ '198.50.214.17:8585',
+ '213.6.227.38:46003',
+ '212.33.239.50:59300',
+ '203.172.185.122:55482',
+ '140.144.90.53:80',
+ '113.53.91.12:53281',
+ '139.255.94.122:38985',
+ '207.191.15.166:38528',
+ '206.189.45.191:80',
+ '175.110.107.26:49145',
+ '81.95.131.10:44292',
+ '139.5.71.94:23500',
+ '176.110.121.90:21776',
+ '89.39.108.202:45463',
+ '213.216.48.9:42370',
+ '139.59.99.63:3128',
+ '138.122.14.158:51692',
+ '47.254.20.82:3128',
+ '139.162.78.109:8080',
+ '103.9.188.229:36984',
+ '182.16.171.18:53281',
+ '118.173.233.37:45592',
+ '5.9.202.160:1080',
+ '202.166.216.249:23500',
+ '181.129.140.83:46909',
+ '88.102.13.246:39454',
+ '176.9.75.42:8080',
+ '76.250.137.241:8080',
+ '183.182.101.32:56659',
+ '99.126.106.177:80',
+ '177.44.88.168:33922',
+ '113.28.129.60:80',
+ '47.74.44.84:8080',
+ '24.139.244.238:8888',
+ '113.53.230.167:80',
+ '49.51.193.134:1080',
+ '5.9.202.166:1080',
+ '183.88.213.25:54661',
+ '188.226.141.127:3128',
+ '96.56.101.182:80',
+ '125.162.158.203:80',
+ '31.173.94.93:59117',
+ '51.254.182.63:60941',
+ '18.207.44.80:80',
+ '46.33.253.29:47713',
+ '154.117.155.42:56719',
+ '103.76.190.210:49939',
+ '203.202.245.58:80',
+ '138.68.240.218:8080',
+ '187.191.20.2:54375',
+ '45.120.119.55:59565',
+ '124.41.240.126:50446',
+ '72.249.51.52:80',
+ '92.247.142.14:53281',
+ '41.193.12.50:42313',
+ '91.206.210.54:56631',
+ '162.243.108.161:8080',
+ '181.176.187.133:80',
+ '67.205.132.241:8080',
+ '202.179.21.49:23500',
+ '124.41.211.153:47411',
+ '1.179.149.97:53243',
+ '138.255.32.65:34641',
+ '162.220.108.59:80',
+ '118.174.220.61:60070',
+ '83.167.73.151:59871',
+ '178.151.143.112:31260',
+ '36.66.126.71:35036',
+ '148.251.200.195:1080',
+ '75.80.242.9:41007',
+ '186.65.81.238:49945',
+ '103.212.129.81:39484',
+ '8.209.94.246:3128',
+ '122.201.23.122:35451',
+ '173.198.228.45:3128',
+ '163.43.23.68:8080',
+ '185.34.22.225:44050',
+ '119.82.252.122:36182',
+ '45.76.255.75:3128',
+ '51.79.78.175:3128',
+ '95.156.125.190:41870',
+ '175.100.72.95:32215',
+ '24.172.34.114:39020',
+ '207.154.231.217:3128',
+ '203.77.239.18:37002',
+ '203.176.135.98:30540',
+ '85.159.48.170:40014',
+ '5.23.103.98:43788',
+ '118.175.226.30:32892',
+ '47.89.193.30:8118',
+ '71.183.100.116:80',
+ '208.47.176.252:80',
+ '103.212.93.193:58016',
+ '213.239.218.54:8118',
+ '13.88.30.112:3128',
+ '138.68.165.154:3128',
+ '193.252.58.167:80',
+ '46.229.187.169:53281',
+ '202.168.158.163:32307',
+ '138.197.222.35:8080',
+ '181.129.140.83:46909',
+ '157.230.226.207:80',
+ '138.121.32.133:23492',
+ '5.2.164.205:50682',
+ '180.183.29.232:3128',
+ '81.223.122.78:48982',
+ '103.111.83.26:36549',
+ '117.54.13.174:34190',
+ '138.68.161.14:3128',
+ '36.89.10.51:34115',
+ '217.29.114.40:56244',
+ '27.145.61.117:8080',
+ '128.199.185.154:3128',
+ '81.4.255.25:3128',
+ '208.97.133.64:80',
+ '185.173.245.127:35302',
+ '213.58.202.70:54214',
+ '174.138.54.49:8080',
+ '139.59.169.246:3128',
+ '47.89.244.225:808',
+ '51.38.71.101:8080',
+ '103.250.156.22:30093',
+ '96.87.16.153:41344',
+ '114.130.92.17:49167',
+ '139.59.53.105:3128',
+ '103.194.242.78:47727',
+ '138.197.204.55:8080',
+ '103.23.236.84:23500',
+ '212.115.224.71:53281',
+ '142.93.57.37:80',
+ '181.129.183.19:53281',
+ '104.244.75.218:8080',
+ '213.159.248.165:61184',
+ '80.48.119.28:8080',
+ '195.182.152.238:38178',
+ '182.52.238.118:50390',
+ '139.255.99.163:50031',
+ '62.106.122.90:36535',
+ '196.1.184.6:58231',
+ '103.217.173.210:53905',
+ '185.73.206.205:39009',
+ '118.173.232.5:34413',
+ '114.134.191.194:31867',
+ '217.61.19.109:80',
+ '186.226.183.170:30698',
+ '36.89.228.201:57487',
+ '86.124.89.80:51978',
+ '207.148.30.112:8118',
+ '41.204.242.98:39339',
+ '5.135.181.83:80',
+ '159.203.166.41:8080',
+ '45.55.9.218:8080',
+ '103.44.136.9:46706',
+ '34.214.16.51:8080',
+ '23.244.28.27:3128',
+ '202.138.247.155:8080',
+ '36.37.114.42:41454',
+ '170.0.48.38:57867',
+ '46.33.253.29:47713',
+ '192.241.245.207:3128',
+ '89.19.199.152:53281',
+ '182.52.51.43:36601',
+ '173.82.105.53:80',
+ '154.53.200.146:45392',
+ '118.173.233.39:48988',
+ '12.218.209.130:53281',
+ '23.225.92.19:30022',
+ '45.65.222.174:34287',
+ '223.25.101.84:54795',
+ '185.10.166.130:8080',
+ '66.82.22.79:80',
+ '187.45.13.190:60237',
+ '166.150.32.184:43539',
+ '43.230.157.150:51136',
+ '103.86.155.78:58703',
+ '138.68.173.29:3128',
+ '207.144.111.230:8080',
+ '74.113.173.78:47208',
+ '188.129.161.55:36631',
+ '74.132.135.242:33440',
+ '185.208.100.198:56074',
+ '46.229.187.169:53281',
+ '118.173.232.5:34413',
+ '193.242.151.43:8080',
+ '103.100.79.2:33048',
+ '213.207.37.214:53281',
+ '103.251.57.23:60083',
+ '74.84.255.88:53281']
+
+Checking for proxy: 62.150.72.99:8080
+Checking for proxy: 36.89.229.97:35098
+Checking for proxy: 54.208.83.109:80
+Checking for proxy: 95.210.2.206:56790
+Checking for proxy: 139.5.237.163:35411
+Checking for proxy: 180.183.114.152:8213
+200
+Chosen proxy is 180.183.114.152:8213
+Wed Dec 11 15:57:50 2019 https://prom.ua/ua/consumer-goods consists these categories:
+---- /ua/Kupuj-ukrayinske
+---- /ua/Nydecor
+---- /ua/Nygifts
+---- /ua/Krasota-i-zdorove
+---- /ua/Odezhda
+---- /ua/Dom-i-sad
+---- /ua/Tehnika-i-elektronika
+---- /ua/Tovary-dlya-detej
+---- /ua/Avto--moto
+---- /ua/Ukrasheniya-i-chasy
+---- /ua/Materialy-dlya-remonta
+---- /ua/Sport-i-otdykh
+---- /ua/Podarki-i-suveniry
+---- /ua/Domashnie-zhivotnye-i-zootovary
+---- /ua/Kantstovary-1
+---- /ua/Svadebnye-tovary
+---- /ua/Produkty-pitaniya-napitki-tabak
+---- /ua/Instrument
+---- /ua/Antikvariat-i-predmety-roskoshi
+---- /ua/Stroitelstvo
+---- /ua/Trendy
+---- /ua/Zimnie-razvlecheniya
+
+Checking for proxy: 180.183.114.152:8213
+200
+Chosen proxy is 180.183.114.152:8213
+Wed Dec 11 15:58:07 2019 http://prom.ua/ua/Kupuj-ukrayinske consists these categories:
+---- /ua/sc/komplekty-postelnogo-belya
+---- /ua/sc/shtory-portery
+---- /ua/sc/interernye-naklejki
+---- /ua/sc/muzhskaya-odezhda-obuv
+---- /ua/sc/zhenskaya-odezhda-obuv
+---- /ua/sc/originalnye-tovary-ukrainskih
+---- /ua/sc/galantereya-aksessuary
+---- /ua/sc/detskaya-odezhda-obuv
+---- /ua/sc/mebel-ukr
+---- /ua/sc/rukodilllya
+---- /ua/sc/knigi-ukrainskom-yazyke
+---- /ua/sc/kosmetika-uhodu
+
+Checking for proxy: 180.183.114.152:8213
+200
+Chosen proxy is 180.183.114.152:8213
+
+Checking for proxy: 180.183.114.152:8213
+200
+Chosen proxy is 180.183.114.152:8213
+<a class="x-pager__item" data-page="2" data-qaid="pagination_button" href="/ua/sc/komplekty-postelnogo-belya?page=2">2<span class="js-paging-spinner"></span></a>
+<a class="x-pager__item" data-page="3" data-qaid="pagination_button" href="/ua/sc/komplekty-postelnogo-belya?page=3">3<span class="js-paging-spinner"></span></a>
+<a class="x-pager__item" data-page="209" data-qaid="pagination_button" href="/ua/sc/komplekty-postelnogo-belya?page=209">209<span class="js-paging-spinner"></span></a>
+<a class="x-pager__item x-pager__item_type_forward" data-page="2" data-qaid="next" href="/ua/sc/komplekty-postelnogo-belya?page=2">Вперед
+    <svg class="x-pager__arrow x-pager__arrow__type_right">
+<use xlink:href="/image/svg_sprites/catalog-hc0e2177219fac3e3f5ea779844d8e5c6b.svg#svg-thin-arrow-right"></use>
+</svg>
+<span class="js-paging-spinner"></span></a>
+['2', '3', '209', '2']
+
+Checking for proxy: 180.183.114.152:8213
+200
+Chosen proxy is 180.183.114.152:8213
+46
+47
+
+Checking for proxy: 180.183.114.152:8213
+200
+Chosen proxy is 180.183.114.152:8213
+Wed Dec 11 16:00:21 2019 https://prom.ua/ua/p879338076-polutornoe-postelnoe-bele.html is collected succesfully!
+Current operation took 20.72083330154419
+0 / 93
+
+Checking for proxy: 180.183.114.152:8213
+200
+Chosen proxy is 180.183.114.152:8213
+Wed Dec 11 16:00:43 2019 https://prom.ua/ua/p651685734-dvuspalnoe-postelnoe-bele.html is collected succesfully!
+Current operation took 21.76595401763916
+1 / 93
+
+Checking for proxy: 180.183.114.152:8213
+200
+Chosen proxy is 180.183.114.152:8213
+Wed Dec 11 16:01:05 2019 https://prom.ua/ua/p529418364-dvuspalnyj-komplekt-postelnogo.html is collected succesfully!
+Current operation took 21.922088861465454
+2 / 93
+
+Checking for proxy: 180.183.114.152:8213
+200
+Chosen proxy is 180.183.114.152:8213
+Wed Dec 11 16:01:34 2019 https://prom.ua/ua/p1078196896-postilnij-komplekt-sinye.html is collected succesfully!
+Current operation took 29.017261743545532
+3 / 93
+
+Checking for proxy: 180.183.114.152:8213
+200
+Chosen proxy is 180.183.114.152:8213
+Wed Dec 11 16:01:53 2019 https://prom.ua/ua/p850665952-byaz-evro-komplekt.html is collected succesfully!
+Current operation took 18.972739934921265
+4 / 93
+
+Checking for proxy: 180.183.114.152:8213
+200
+Chosen proxy is 180.183.114.152:8213
+Wed Dec 11 16:02:09 2019 https://prom.ua/ua/p1075800845-postelnoe-bele-vilyuta.html is collected succesfully!
+Current operation took 16.5036199092865
+5 / 93
+
+Checking for proxy: 180.183.114.152:8213
+200
+Chosen proxy is 180.183.114.152:8213
+Wed Dec 11 16:02:31 2019 https://prom.ua/ua/p621945591-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 21.720877170562744
+6 / 93
+
+Checking for proxy: 180.183.114.152:8213
+200
+Chosen proxy is 180.183.114.152:8213
+Wed Dec 11 16:02:59 2019 https://prom.ua/ua/p600537258-evropejskoe-postelnoe-bele.html is collected succesfully!
+Current operation took 27.97260332107544
+7 / 93
+
+Checking for proxy: 180.183.114.152:8213
+200
+Chosen proxy is 180.183.114.152:8213
+Wed Dec 11 16:03:19 2019 https://prom.ua/ua/p914588615-postelnoe-bele-evro.html is collected succesfully!
+Current operation took 20.184956073760986
+8 / 93
+
+Checking for proxy: 180.183.114.152:8213
+Checking for proxy: 54.245.141.216:8888
+Checking for proxy: 43.245.202.15:57396
+Checking for proxy: 67.205.174.209:3128
+Checking for proxy: 198.199.120.102:3128
+Checking for proxy: 34.90.64.64:8888
+Checking for proxy: 45.5.94.116:35258
+200
+Chosen proxy is 45.5.94.116:35258
+Wed Dec 11 16:05:46 2019 https://prom.ua/ua/p731765532-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 146.69806289672852
+9 / 93
+
+Checking for proxy: 45.5.94.116:35258
+Checking for proxy: 196.3.97.34:23500
+200
+Chosen proxy is 196.3.97.34:23500
+Wed Dec 11 16:06:30 2019 https://prom.ua/ua/p1070805480-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 44.35991311073303
+10 / 93
+
+Checking for proxy: 196.3.97.34:23500
+Checking for proxy: 58.153.112.168:8080
+200
+Chosen proxy is 58.153.112.168:8080
+Wed Dec 11 16:07:12 2019 https://prom.ua/ua/p862089220-modnij-komplekt-postilnoyi.html is collected succesfully!
+Current operation took 42.13017010688782
+11 / 93
+
+Checking for proxy: 58.153.112.168:8080
+200
+Chosen proxy is 58.153.112.168:8080
+Wed Dec 11 16:07:37 2019 https://prom.ua/ua/p746460844-satin-lyuksevro-komplekt.html is collected succesfully!
+Current operation took 24.809112310409546
+12 / 93
+
+Checking for proxy: 58.153.112.168:8080
+200
+Chosen proxy is 58.153.112.168:8080
+Wed Dec 11 16:07:46 2019 https://prom.ua/ua/p1023194267-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 9.253768920898438
+13 / 93
+
+Checking for proxy: 58.153.112.168:8080
+200
+Chosen proxy is 58.153.112.168:8080
+Wed Dec 11 16:08:01 2019 https://prom.ua/ua/p888878316-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 14.675469160079956
+14 / 93
+
+Checking for proxy: 58.153.112.168:8080
+200
+Chosen proxy is 58.153.112.168:8080
+Wed Dec 11 16:08:14 2019 https://prom.ua/ua/p1043389882-postelnoe-bele-byaz.html is collected succesfully!
+Current operation took 13.309063196182251
+15 / 93
+
+Checking for proxy: 58.153.112.168:8080
+200
+Chosen proxy is 58.153.112.168:8080
+Wed Dec 11 16:08:27 2019 https://prom.ua/ua/p717103634-postelnoe-belyo-dvuspalnoe.html is collected succesfully!
+Current operation took 12.840859651565552
+16 / 93
+
+Checking for proxy: 58.153.112.168:8080
+200
+Chosen proxy is 58.153.112.168:8080
+Wed Dec 11 16:08:40 2019 https://prom.ua/ua/p999324660-zhenskoe-dvuspalnoe-postelnoe.html is collected succesfully!
+Current operation took 12.65011715888977
+17 / 93
+
+Checking for proxy: 58.153.112.168:8080
+200
+Chosen proxy is 58.153.112.168:8080
+Wed Dec 11 16:08:56 2019 https://prom.ua/ua/p827523294-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 16.61813187599182
+18 / 93
+
+Checking for proxy: 58.153.112.168:8080
+200
+Chosen proxy is 58.153.112.168:8080
+Wed Dec 11 16:09:24 2019 https://prom.ua/ua/p1061237228-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 27.924388885498047
+19 / 93
+
+Checking for proxy: 58.153.112.168:8080
+200
+Chosen proxy is 58.153.112.168:8080
+Wed Dec 11 16:09:47 2019 https://prom.ua/ua/p925582276-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 23.102396726608276
+20 / 93
+
+Checking for proxy: 58.153.112.168:8080
+200
+Chosen proxy is 58.153.112.168:8080
+Wed Dec 11 16:10:02 2019 https://prom.ua/ua/p621952489-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 14.197801113128662
+21 / 93
+
+Checking for proxy: 58.153.112.168:8080
+200
+Chosen proxy is 58.153.112.168:8080
+Wed Dec 11 16:10:29 2019 https://prom.ua/ua/p473256732-evro-komplekt-postelnogo.html is collected succesfully!
+Current operation took 27.525137424468994
+22 / 93
+
+Checking for proxy: 58.153.112.168:8080
+200
+Chosen proxy is 58.153.112.168:8080
+Wed Dec 11 16:10:45 2019 https://prom.ua/ua/p542445177-polutornyj-komplekt-hotel.html is collected succesfully!
+Current operation took 15.820976734161377
+23 / 93
+
+Checking for proxy: 58.153.112.168:8080
+200
+Chosen proxy is 58.153.112.168:8080
+Wed Dec 11 16:11:01 2019 https://prom.ua/ua/p1000553407-postelnyj-komplekt-polutornyj.html is collected succesfully!
+Current operation took 16.151101112365723
+24 / 93
+
+Checking for proxy: 58.153.112.168:8080
+200
+Chosen proxy is 58.153.112.168:8080
+Wed Dec 11 16:11:15 2019 https://prom.ua/ua/p1032001801-semejnyj-komplekt-color.html is collected succesfully!
+Current operation took 13.39575982093811
+25 / 93
+
+Checking for proxy: 58.153.112.168:8080
+200
+Chosen proxy is 58.153.112.168:8080
+Wed Dec 11 16:11:32 2019 https://prom.ua/ua/p819532633-postelnoe-belyobyazdvuhspalnyj-komplekt.html is collected succesfully!
+Current operation took 17.591490030288696
+26 / 93
+
+Checking for proxy: 58.153.112.168:8080
+200
+Chosen proxy is 58.153.112.168:8080
+Wed Dec 11 16:11:47 2019 https://prom.ua/ua/p1010603865-postelnyj-komplekt-dvuspalnyj.html is collected succesfully!
+Current operation took 14.617002010345459
+27 / 93
+
+Checking for proxy: 58.153.112.168:8080
+200
+Chosen proxy is 58.153.112.168:8080
+Wed Dec 11 16:12:07 2019 https://prom.ua/ua/p1053762122-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 20.502814531326294
+28 / 93
+
+Checking for proxy: 58.153.112.168:8080
+200
+Chosen proxy is 58.153.112.168:8080
+Wed Dec 11 16:12:28 2019 https://prom.ua/ua/p1054975197-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 20.930216550827026
+29 / 93
+
+Checking for proxy: 58.153.112.168:8080
+200
+Chosen proxy is 58.153.112.168:8080
+Wed Dec 11 16:12:44 2019 https://prom.ua/ua/p703040804-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 16.111482620239258
+30 / 93
+
+Checking for proxy: 58.153.112.168:8080
+200
+Chosen proxy is 58.153.112.168:8080
+Wed Dec 11 16:14:08 2019 https://prom.ua/ua/p1085922391-evro-komplekt-postelnogo.html is collected succesfully!
+Current operation took 83.64153122901917
+31 / 93
+
+Checking for proxy: 58.153.112.168:8080
+200
+Chosen proxy is 58.153.112.168:8080
+Wed Dec 11 16:14:36 2019 https://prom.ua/ua/p131578672-postelnoe-bele-zhatka.html is collected succesfully!
+Current operation took 28.103238821029663
+32 / 93
+
+Checking for proxy: 58.153.112.168:8080
+200
+Chosen proxy is 58.153.112.168:8080
+Wed Dec 11 16:14:57 2019 https://prom.ua/ua/p860473992-evro-komplekt-spalnyj.html is collected succesfully!
+Current operation took 21.047196865081787
+33 / 93
+
+Checking for proxy: 58.153.112.168:8080
+200
+Chosen proxy is 58.153.112.168:8080
+Wed Dec 11 16:15:12 2019 https://prom.ua/ua/p731769438-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 14.39706802368164
+34 / 93
+
+Checking for proxy: 58.153.112.168:8080
+200
+Chosen proxy is 58.153.112.168:8080
+Wed Dec 11 16:15:26 2019 https://prom.ua/ua/p1069919216-postelnoe-bele-luxyart.html is collected succesfully!
+Current operation took 14.673235654830933
+35 / 93
+
+Checking for proxy: 58.153.112.168:8080
+200
+Chosen proxy is 58.153.112.168:8080
+Wed Dec 11 16:15:48 2019 https://prom.ua/ua/p961393291-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 21.446013927459717
+36 / 93
+
+Checking for proxy: 58.153.112.168:8080
+200
+Chosen proxy is 58.153.112.168:8080
+Wed Dec 11 16:15:59 2019 https://prom.ua/ua/p1019782823-komplekt-vzroslogo-postelnogo.html is collected succesfully!
+Current operation took 11.019066572189331
+37 / 93
+
+Checking for proxy: 58.153.112.168:8080
+200
+Chosen proxy is 58.153.112.168:8080
+Wed Dec 11 16:16:11 2019 https://prom.ua/ua/p1050663307-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 12.619665384292603
+38 / 93
+
+Checking for proxy: 58.153.112.168:8080
+200
+Chosen proxy is 58.153.112.168:8080
+Wed Dec 11 16:16:29 2019 https://prom.ua/ua/p637697354-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 17.419031143188477
+39 / 93
+
+Checking for proxy: 58.153.112.168:8080
+200
+Chosen proxy is 58.153.112.168:8080
+Wed Dec 11 16:16:47 2019 https://prom.ua/ua/p964381792-postelnoe-bele-vilyuta.html is collected succesfully!
+Current operation took 17.870737552642822
+40 / 93
+
+Checking for proxy: 58.153.112.168:8080
+200
+Chosen proxy is 58.153.112.168:8080
+Wed Dec 11 16:16:56 2019 https://prom.ua/ua/p865814415-postelnoe-belyobyazdvuhspalnyj-komplekt.html is collected succesfully!
+Current operation took 9.0463125705719
+41 / 93
+
+Checking for proxy: 58.153.112.168:8080
+200
+Chosen proxy is 58.153.112.168:8080
+Wed Dec 11 16:17:06 2019 https://prom.ua/ua/p888878464-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 10.601926565170288
+42 / 93
+
+Checking for proxy: 58.153.112.168:8080
+200
+Chosen proxy is 58.153.112.168:8080
+Wed Dec 11 16:17:19 2019 https://prom.ua/ua/p644513291-postelnoe-belyo-evro.html is collected succesfully!
+Current operation took 13.172825813293457
+43 / 93
+
+Checking for proxy: 58.153.112.168:8080
+200
+Chosen proxy is 58.153.112.168:8080
+Wed Dec 11 16:17:39 2019 https://prom.ua/ua/p529392751-dvuspalnyj-komplekt-postelnogo.html is collected succesfully!
+Current operation took 19.789628744125366
+44 / 93
+
+Checking for proxy: 58.153.112.168:8080
+200
+Chosen proxy is 58.153.112.168:8080
+Wed Dec 11 16:17:56 2019 https://prom.ua/ua/p1086092452-dvuspalnyj-komplekt-postelnogo.html is collected succesfully!
+Current operation took 16.431578397750854
+45 / 93
+
+Checking for proxy: 58.153.112.168:8080
+200
+Chosen proxy is 58.153.112.168:8080
+Wed Dec 11 16:18:05 2019 https://prom.ua/ua/p728012245-ranfors-lyuksdvuspalnyj-komplekt.html is collected succesfully!
+Current operation took 9.606472730636597
+46 / 93
+
+Checking for proxy: 58.153.112.168:8080
+200
+Chosen proxy is 58.153.112.168:8080
+Wed Dec 11 16:18:29 2019 https://prom.ua/ua/p649045142-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 23.8891499042511
+47 / 93
+
+Checking for proxy: 58.153.112.168:8080
+200
+Chosen proxy is 58.153.112.168:8080
+Wed Dec 11 16:18:51 2019 https://prom.ua/ua/p923305275-pled-meshok-akula.html is collected succesfully!
+Current operation took 22.132203817367554
+48 / 93
+
+Checking for proxy: 58.153.112.168:8080
+200
+Chosen proxy is 58.153.112.168:8080
+Wed Dec 11 16:19:06 2019 https://prom.ua/ua/p958957830-evro-komplekt-postelnogo.html is collected succesfully!
+Current operation took 14.35982060432434
+49 / 93
+
+Checking for proxy: 58.153.112.168:8080
+200
+Chosen proxy is 58.153.112.168:8080
+Wed Dec 11 16:19:16 2019 https://prom.ua/ua/p872077692-postilnij-komplekt-byaz.html is collected succesfully!
+Current operation took 10.787338733673096
+50 / 93
+
+Checking for proxy: 58.153.112.168:8080
+200
+Chosen proxy is 58.153.112.168:8080
+Wed Dec 11 16:19:36 2019 https://prom.ua/ua/p928646526-postelnoe-bele-byaz.html is collected succesfully!
+Current operation took 19.823062419891357
+51 / 93
+
+Checking for proxy: 58.153.112.168:8080
+Checking for proxy: 45.55.27.161:3128
+Checking for proxy: 89.111.105.85:41258
+Checking for proxy: 103.28.86.241:61954
+Checking for proxy: 114.110.22.90:43221
+200
+Chosen proxy is 114.110.22.90:43221
+Wed Dec 11 16:21:26 2019 https://prom.ua/ua/p209869092-postelnoe-bele-satin.html is collected succesfully!
+Current operation took 109.46436071395874
+52 / 93
+
+Checking for proxy: 114.110.22.90:43221
+Checking for proxy: 94.231.80.100:3128
+200
+Chosen proxy is 94.231.80.100:3128
+Wed Dec 11 16:22:37 2019 https://prom.ua/ua/p327190829-polutornyj-komplekt-postelnogo.html is collected succesfully!
+Current operation took 71.2014479637146
+53 / 93
+
+Checking for proxy: 94.231.80.100:3128
+Checking for proxy: 170.81.141.37:53281
+Checking for proxy: 213.174.10.58:56852
+Checking for proxy: 136.228.128.14:61158
+Checking for proxy: 45.79.50.63:8132
+Checking for proxy: 216.228.69.202:32170
+Checking for proxy: 217.219.179.60:5220
+Checking for proxy: 207.154.231.213:8080
+Checking for proxy: 91.219.56.221:8080
+Checking for proxy: 111.92.240.134:30598
+200
+Chosen proxy is 111.92.240.134:30598
+Wed Dec 11 16:26:52 2019 https://prom.ua/ua/p424037796-komplekt-spalnyj-kollektsii.html is collected succesfully!
+Current operation took 254.95297718048096
+54 / 93
+
+Checking for proxy: 111.92.240.134:30598
+Checking for proxy: 50.197.38.230:60724
+Checking for proxy: 49.51.70.42:1080
+Checking for proxy: 45.113.64.129:8080
+200
+Chosen proxy is 45.113.64.129:8080
+Wed Dec 11 16:28:29 2019 https://prom.ua/ua/p682796174-postelnoe-bele-byaz.html is collected succesfully!
+Current operation took 97.59654426574707
+55 / 93
+
+Checking for proxy: 45.113.64.129:8080
+Checking for proxy: 216.169.73.65:40344
+Checking for proxy: 67.205.149.230:8080
+Checking for proxy: 3.8.134.151:80
+Checking for proxy: 103.204.171.202:53281
+Checking for proxy: 162.243.108.141:3128
+Checking for proxy: 94.180.106.94:32767
+200
+Chosen proxy is 94.180.106.94:32767
+Wed Dec 11 16:30:49 2019 https://prom.ua/ua/p997630602-semejnoe-postelnoe-bele.html is collected succesfully!
+Current operation took 139.6797263622284
+56 / 93
+
+Checking for proxy: 94.180.106.94:32767
+Checking for proxy: 162.243.108.141:3128
+Checking for proxy: 193.41.88.58:53281
+Checking for proxy: 181.129.55.44:44749
+Checking for proxy: 95.31.17.7:3128
+Checking for proxy: 195.171.16.146:8080
+Checking for proxy: 75.73.50.82:80
+Checking for proxy: 85.175.216.32:53281
+Checking for proxy: 103.250.156.22:30093
+200
+Chosen proxy is 103.250.156.22:30093
+Wed Dec 11 16:36:27 2019 https://prom.ua/ua/p180908285-viluta-komplekt-postelnogo.html is collected succesfully!
+Current operation took 338.2537715435028
+57 / 93
+
+Checking for proxy: 103.250.156.22:30093
+Checking for proxy: 188.235.107.7:60205
+Checking for proxy: 64.17.30.238:63141
+Checking for proxy: 103.225.206.22:31777
+Checking for proxy: 202.179.7.182:46948
+200
+Chosen proxy is 202.179.7.182:46948
+Wed Dec 11 16:38:31 2019 https://prom.ua/ua/p1030777212-polutornyj-komplekt-postelnogo.html is collected succesfully!
+Current operation took 123.43871307373047
+58 / 93
+
+Checking for proxy: 202.179.7.182:46948
+Checking for proxy: 164.39.202.75:53281
+Checking for proxy: 67.205.146.29:8080
+Checking for proxy: 138.204.23.66:53281
+200
+Chosen proxy is 138.204.23.66:53281
+Wed Dec 11 16:39:40 2019 https://prom.ua/ua/p779131238-dvuspalnyj-nabor-postelnogo.html is collected succesfully!
+Current operation took 68.92325401306152
+59 / 93
+
+Checking for proxy: 138.204.23.66:53281
+Checking for proxy: 134.209.23.176:80
+Checking for proxy: 103.74.108.145:33831
+Checking for proxy: 138.68.24.145:8080
+Checking for proxy: 24.172.225.122:53281
+Checking for proxy: 3.15.217.158:8888
+Checking for proxy: 41.216.230.148:41351
+200
+Chosen proxy is 41.216.230.148:41351
+Wed Dec 11 16:41:27 2019 https://prom.ua/ua/p517630669-komplekt-postelnogo-markiza.html is collected succesfully!
+Current operation took 107.01213812828064
+60 / 93
+
+Checking for proxy: 41.216.230.148:41351
+Checking for proxy: 119.82.253.63:34110
+Checking for proxy: 77.94.144.162:3128
+200
+Chosen proxy is 77.94.144.162:3128
+Wed Dec 11 16:42:07 2019 https://prom.ua/ua/p41801155-polutornyj-komplekt-strajp.html is collected succesfully!
+Current operation took 40.763230323791504
+61 / 93
+
+Checking for proxy: 77.94.144.162:3128
+Checking for proxy: 213.16.81.189:54040
+Checking for proxy: 206.189.30.235:80
+Checking for proxy: 65.152.119.226:35090
+Checking for proxy: 163.43.23.68:8080
+Checking for proxy: 41.190.95.20:56167
+200
+Chosen proxy is 41.190.95.20:56167
+Wed Dec 11 16:45:17 2019 https://prom.ua/ua/p844616587-komplekti-postilnoyi-bilizni.html is collected succesfully!
+Current operation took 189.90335512161255
+62 / 93
+
+Checking for proxy: 41.190.95.20:56167
+Checking for proxy: 5.39.82.135:8125
+Checking for proxy: 162.248.247.153:32592
+Checking for proxy: 46.229.67.198:47437
+Checking for proxy: 185.208.100.198:56074
+Checking for proxy: 45.79.50.63:8132
+Checking for proxy: 45.79.40.158:8113
+Checking for proxy: 166.249.185.131:33767
+Checking for proxy: 185.94.215.235:53281
+Checking for proxy: 37.232.13.54:51296
+Checking for proxy: 103.100.79.2:33048
+200
+Chosen proxy is 103.100.79.2:33048
+Wed Dec 11 16:48:49 2019 https://prom.ua/ua/p295028220-dvuspalnoe-postelnoe-byaz.html is collected succesfully!
+Current operation took 211.2949502468109
+63 / 93
+
+Checking for proxy: 103.100.79.2:33048
+200
+Chosen proxy is 103.100.79.2:33048
+Wed Dec 11 16:49:07 2019 https://prom.ua/ua/p658354315-komplekt-detskogo-postelnogo.html is collected succesfully!
+Current operation took 18.589380025863647
+64 / 93
+
+Checking for proxy: 103.100.79.2:33048
+200
+Chosen proxy is 103.100.79.2:33048
+Wed Dec 11 16:49:22 2019 https://prom.ua/ua/p97110449-polutornoe-postelnoe-bele.html is collected succesfully!
+Current operation took 14.824262857437134
+65 / 93
+
+Checking for proxy: 103.100.79.2:33048
+200
+Chosen proxy is 103.100.79.2:33048
+Wed Dec 11 16:49:32 2019 https://prom.ua/ua/p344618976-dvospalnij-postilnij-komplekt.html is collected succesfully!
+Current operation took 10.075580358505249
+66 / 93
+
+Checking for proxy: 103.100.79.2:33048
+200
+Chosen proxy is 103.100.79.2:33048
+Wed Dec 11 16:49:43 2019 https://prom.ua/ua/p1066236698-postelnoe-bele-satinnovoe.html is collected succesfully!
+Current operation took 10.345653057098389
+67 / 93
+
+Checking for proxy: 103.100.79.2:33048
+200
+Chosen proxy is 103.100.79.2:33048
+Wed Dec 11 16:49:58 2019 https://prom.ua/ua/p640782307-snezhana-postelnoe-bele.html is collected succesfully!
+Current operation took 15.835267305374146
+68 / 93
+
+Checking for proxy: 103.100.79.2:33048
+200
+Chosen proxy is 103.100.79.2:33048
+Wed Dec 11 16:50:09 2019 https://prom.ua/ua/p589172729-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 10.38107705116272
+69 / 93
+
+Checking for proxy: 103.100.79.2:33048
+200
+Chosen proxy is 103.100.79.2:33048
+Wed Dec 11 16:50:18 2019 https://prom.ua/ua/p333369574-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 9.404833793640137
+70 / 93
+
+Checking for proxy: 103.100.79.2:33048
+Checking for proxy: 54.208.83.109:80
+Checking for proxy: 196.41.102.130:41170
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 16:56:09 2019 https://prom.ua/ua/p447975514-nabor-postelnogo-belya.html is collected succesfully!
+Current operation took 350.37332820892334
+71 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 16:56:15 2019 https://prom.ua/ua/p494053893-dvuspalnyj-komplekt-postelnogo.html is collected succesfully!
+Current operation took 6.340894460678101
+72 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 16:56:22 2019 https://prom.ua/ua/p518200922-semejnyj-nabor-postelnogo.html is collected succesfully!
+Current operation took 7.238469839096069
+73 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 16:56:38 2019 https://prom.ua/ua/p1063546599-postelnoe-bele-strajp.html is collected succesfully!
+Current operation took 16.16078543663025
+74 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 16:56:52 2019 https://prom.ua/ua/p512918133-postelnoe-bele-dvuhstoronnee.html is collected succesfully!
+Current operation took 14.080831050872803
+75 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 16:57:07 2019 https://prom.ua/ua/p717460956-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 14.317013263702393
+76 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 16:57:20 2019 https://prom.ua/ua/p894207489-postelnoe-bele-kosmos.html is collected succesfully!
+Current operation took 13.73082947731018
+77 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 16:57:32 2019 https://prom.ua/ua/p789217296-postelnoe-bele-odnotonnyj.html is collected succesfully!
+Current operation took 11.73984694480896
+78 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 16:57:43 2019 https://prom.ua/ua/p261018957-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 10.453488826751709
+79 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 16:57:49 2019 https://prom.ua/ua/p995745764-postelnoe-bele-balakhome.html is collected succesfully!
+Current operation took 6.358076095581055
+80 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 16:58:03 2019 https://prom.ua/ua/p828027494-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 14.384870290756226
+81 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 16:58:13 2019 https://prom.ua/ua/p618145275-17148-postelnoe-bele.html is collected succesfully!
+Current operation took 9.423168182373047
+82 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 16:58:24 2019 https://prom.ua/ua/p538825588-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 11.56587815284729
+83 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 16:58:30 2019 https://prom.ua/ua/p1027100292-postelnoe-bele-satin.html is collected succesfully!
+Current operation took 5.583269357681274
+84 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 16:58:39 2019 https://prom.ua/ua/p937789489-evro-komplekt-postelnogo.html is collected succesfully!
+Current operation took 8.704252481460571
+85 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 16:58:46 2019 https://prom.ua/ua/p217391646-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 7.860879421234131
+86 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 16:58:58 2019 https://prom.ua/ua/p553795051-postelnoe-bele-ranfors.html is collected succesfully!
+Current operation took 11.715410709381104
+87 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 16:59:11 2019 https://prom.ua/ua/p921526889-polutornyj-komplekt-byaz.html is collected succesfully!
+Current operation took 12.324147462844849
+88 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 16:59:21 2019 https://prom.ua/ua/p997756667-komplekt-postelnij-polutorka.html is collected succesfully!
+Current operation took 10.346219301223755
+89 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 16:59:33 2019 https://prom.ua/ua/p853153687-postelnoe-bele-tsvety.html is collected succesfully!
+Current operation took 12.568555355072021
+90 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 16:59:41 2019 https://prom.ua/ua/p800842372-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 7.514131546020508
+91 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 16:59:47 2019 https://prom.ua/ua/p400962886-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 5.581920146942139
+92 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+46
+47
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:00:17 2019 https://prom.ua/ua/p678876748-dvuspalnoe-postelnoe-bele.html is collected succesfully!
+Current operation took 13.450379371643066
+0 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:00:26 2019 https://prom.ua/ua/p937047156-postelnoe-bele-ukraina.html is collected succesfully!
+Current operation took 8.679977178573608
+1 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:00:42 2019 https://prom.ua/ua/p1080747617-stilnoe-postelnoe-bele.html is collected succesfully!
+Current operation took 16.224154710769653
+2 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:00:51 2019 https://prom.ua/ua/p1013280357-komplekt-evro-vzroslogo.html is collected succesfully!
+Current operation took 8.873377084732056
+3 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:01:03 2019 https://prom.ua/ua/p861441118-postelnoe-bele-viluta.html is collected succesfully!
+Current operation took 11.700786352157593
+4 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:01:16 2019 https://prom.ua/ua/p721374114-postelnoe-bele-strajp.html is collected succesfully!
+Current operation took 13.027536869049072
+5 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:01:25 2019 https://prom.ua/ua/p1066593334-dvuspalnyj-komplekt-ranforsa.html is collected succesfully!
+Current operation took 9.703517436981201
+6 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:01:38 2019 https://prom.ua/ua/p475228344-postelnoe-bele-vilyuta.html is collected succesfully!
+Current operation took 12.351364612579346
+7 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:01:48 2019 https://prom.ua/ua/p783433617-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 10.249733209609985
+8 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:02:01 2019 https://prom.ua/ua/p1060650539-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 13.231154680252075
+9 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:02:14 2019 https://prom.ua/ua/p1010603853-postelnyj-komplekt-polutornyj.html is collected succesfully!
+Current operation took 12.542180299758911
+10 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:02:22 2019 https://prom.ua/ua/p715707365-evro-dvuhspalnyj-komplekt.html is collected succesfully!
+Current operation took 8.544615030288696
+11 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:02:33 2019 https://prom.ua/ua/p914586600-postelnoe-bele-polutornyj.html is collected succesfully!
+Current operation took 10.375593423843384
+12 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:02:41 2019 https://prom.ua/ua/p316049508-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 7.878657102584839
+13 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:02:59 2019 https://prom.ua/ua/p908684803-postelnoe-bele-byaz.html is collected succesfully!
+Current operation took 18.689868927001953
+14 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:03:12 2019 https://prom.ua/ua/p979659954-kachestvennoe-postelnoe-bele.html is collected succesfully!
+Current operation took 12.559537649154663
+15 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:03:25 2019 https://prom.ua/ua/p1033925949-postelnoe-bele-komplekt.html is collected succesfully!
+Current operation took 13.35215950012207
+16 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:03:32 2019 https://prom.ua/ua/p1093439905-mir-uzorov-bezh.html is collected succesfully!
+Current operation took 6.474155426025391
+17 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:03:43 2019 https://prom.ua/ua/p953888730-postelnoe-bele-dvuspalnyj.html is collected succesfully!
+Current operation took 11.243814468383789
+18 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:03:56 2019 https://prom.ua/ua/p781635114-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 13.217040538787842
+19 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:04:05 2019 https://prom.ua/ua/p179964388-dvuspalnoe-postelnoe-bele.html is collected succesfully!
+Current operation took 8.584981441497803
+20 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:04:10 2019 https://prom.ua/ua/p844491271-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 5.336453676223755
+21 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:04:19 2019 https://prom.ua/ua/p1056705868-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 8.588603973388672
+22 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:04:32 2019 https://prom.ua/ua/p798883597-postelnoe-bele-vilyuta.html is collected succesfully!
+Current operation took 13.281950950622559
+23 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:04:46 2019 https://prom.ua/ua/p1036375455-postelnoe-bele-shelkovyj.html is collected succesfully!
+Current operation took 14.053292512893677
+24 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:05:01 2019 https://prom.ua/ua/p315273366-dvuspalnoe-postelnoe-bele.html is collected succesfully!
+Current operation took 14.689249753952026
+25 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:05:11 2019 https://prom.ua/ua/p1022938753-komplekt-polutornogo-postelnogo.html is collected succesfully!
+Current operation took 10.071273803710938
+26 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:05:25 2019 https://prom.ua/ua/p799023921-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 13.806551456451416
+27 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:05:39 2019 https://prom.ua/ua/p179969695-dvuspalnoe-postelnoe-bele.html is collected succesfully!
+Current operation took 14.062245845794678
+28 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:05:52 2019 https://prom.ua/ua/p1067356429-postelnoe-bele-luxyart.html is collected succesfully!
+Current operation took 13.280890703201294
+29 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:05:59 2019 https://prom.ua/ua/p999324684-sovremennyj-polutornyj-komplekt.html is collected succesfully!
+Current operation took 7.43576192855835
+30 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:06:15 2019 https://prom.ua/ua/p838088751-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 15.722361326217651
+31 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:06:28 2019 https://prom.ua/ua/p1082215961-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 13.407964706420898
+32 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:06:37 2019 https://prom.ua/ua/p1085877899-dvuspalnyj-komplekt-postelnogo.html is collected succesfully!
+Current operation took 8.617879867553711
+33 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:06:48 2019 https://prom.ua/ua/p731742883-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 11.316667795181274
+34 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:07:01 2019 https://prom.ua/ua/p957477933-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 12.665679693222046
+35 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:07:14 2019 https://prom.ua/ua/p1075267954-evro-postelnoe-bele.html is collected succesfully!
+Current operation took 13.36487340927124
+36 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:07:26 2019 https://prom.ua/ua/p1031361438-plyushevyj-pled.html is collected succesfully!
+Current operation took 11.282390356063843
+37 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:07:37 2019 https://prom.ua/ua/p783430918-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 10.810503005981445
+38 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:07:42 2019 https://prom.ua/ua/p1034001864-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 5.689392805099487
+39 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:07:50 2019 https://prom.ua/ua/p179952482-dvuspalnoe-postelnoe-bele.html is collected succesfully!
+Current operation took 7.964441537857056
+40 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:08:02 2019 https://prom.ua/ua/p1029815928-parovozik-tomaspolutornyj-komplekt.html is collected succesfully!
+Current operation took 11.531553983688354
+41 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:08:15 2019 https://prom.ua/ua/p1035757663-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 13.575201988220215
+42 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:08:24 2019 https://prom.ua/ua/p312366284-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 8.803940534591675
+43 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:08:31 2019 https://prom.ua/ua/p1023181019-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 6.719563961029053
+44 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:08:41 2019 https://prom.ua/ua/p1028468500-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 10.290555715560913
+45 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:08:48 2019 https://prom.ua/ua/p1078384538-dvuspalnoe-postelnoe-bele.html is collected succesfully!
+Current operation took 7.351882696151733
+46 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:09:04 2019 https://prom.ua/ua/p1036117636-postelnoe-bele-satina.html is collected succesfully!
+Current operation took 15.149740219116211
+47 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:09:19 2019 https://prom.ua/ua/p12554519-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 14.9190092086792
+48 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:09:33 2019 https://prom.ua/ua/p1093581383-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 14.956000566482544
+49 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:09:46 2019 https://prom.ua/ua/p850306578-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 12.529023885726929
+50 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:09:54 2019 https://prom.ua/ua/p612199820-komplekty-evro-spalnye.html is collected succesfully!
+Current operation took 7.732274293899536
+51 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:10:01 2019 https://prom.ua/ua/p297014011-komplekt-polutornyj.html is collected succesfully!
+Current operation took 7.348334312438965
+52 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:10:15 2019 https://prom.ua/ua/p1084822992-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 13.799987316131592
+53 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:10:23 2019 https://prom.ua/ua/p767416944-postelnoe-bele-dvuspalnyj.html is collected succesfully!
+Current operation took 7.778000593185425
+54 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:10:33 2019 https://prom.ua/ua/p608088982-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 10.863942861557007
+55 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:10:44 2019 https://prom.ua/ua/p678108867-chernoe-postelnoe-bele.html is collected succesfully!
+Current operation took 10.240438222885132
+56 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:10:56 2019 https://prom.ua/ua/p279926157-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 12.486428499221802
+57 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:11:08 2019 https://prom.ua/ua/p904523268-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 11.56458854675293
+58 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:11:22 2019 https://prom.ua/ua/p578501171-kachestvennyj-komplekt-postelnogo.html is collected succesfully!
+Current operation took 14.506672382354736
+59 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:11:35 2019 https://prom.ua/ua/p1094369576-postelnoe-bele-dvuspalnoe.html is collected succesfully!
+Current operation took 12.909690618515015
+60 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:11:42 2019 https://prom.ua/ua/p406226408-kachestvennoe-postelnoe-bele.html is collected succesfully!
+Current operation took 6.783138275146484
+61 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:11:51 2019 https://prom.ua/ua/p757489020-postelnoe-bele-chernyj.html is collected succesfully!
+Current operation took 9.232238292694092
+62 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:11:59 2019 https://prom.ua/ua/p747749735-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 7.696221828460693
+63 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:12:05 2019 https://prom.ua/ua/p1011304821-postelnoe-bele-tag.html is collected succesfully!
+Current operation took 5.978872060775757
+64 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:12:17 2019 https://prom.ua/ua/p567447347-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 12.602193355560303
+65 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:12:27 2019 https://prom.ua/ua/p952643194-dvospalnij-komplekt-satinu.html is collected succesfully!
+Current operation took 9.333511114120483
+66 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:12:34 2019 https://prom.ua/ua/p414228133-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 7.601967811584473
+67 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:12:48 2019 https://prom.ua/ua/p994042329-postelnoe-bele-satina.html is collected succesfully!
+Current operation took 13.3415367603302
+68 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:12:59 2019 https://prom.ua/ua/p1075350411-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 11.493035554885864
+69 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:13:05 2019 https://prom.ua/ua/p879077898-evro-komplekt-postelnogo.html is collected succesfully!
+Current operation took 5.8248491287231445
+70 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:13:19 2019 https://prom.ua/ua/p542737545-komplekt-posteli-polutornyj.html is collected succesfully!
+Current operation took 13.835803270339966
+71 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:13:27 2019 https://prom.ua/ua/p926834319-postelnoe-bele-lotus.html is collected succesfully!
+Current operation took 7.736443042755127
+72 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:13:43 2019 https://prom.ua/ua/p29938778-postelnoe-bele-tep.html is collected succesfully!
+Current operation took 16.170976161956787
+73 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:13:48 2019 https://prom.ua/ua/p368411062-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 5.417052745819092
+74 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:13:59 2019 https://prom.ua/ua/p1039973224-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 10.54079294204712
+75 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:14:11 2019 https://prom.ua/ua/p905124161-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 11.70506238937378
+76 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:14:17 2019 https://prom.ua/ua/p314204523-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 6.6961119174957275
+77 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:14:27 2019 https://prom.ua/ua/p941386209-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 9.330997467041016
+78 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:14:37 2019 https://prom.ua/ua/p491944053-mahrovyj-komplekt-postelnogo.html is collected succesfully!
+Current operation took 10.123002052307129
+79 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:14:54 2019 https://prom.ua/ua/p886763550-postel-byaz-gold.html is collected succesfully!
+Current operation took 17.79368782043457
+80 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:15:03 2019 https://prom.ua/ua/p873357729-postelnoe-bele-leleka.html is collected succesfully!
+Current operation took 8.71658730506897
+81 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:15:15 2019 https://prom.ua/ua/p787443523-nastennoe-panno-zerkalo.html is collected succesfully!
+Current operation took 12.038844108581543
+82 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:15:26 2019 https://prom.ua/ua/p1058516510-postelnoe-bele-dvuspalnoe.html is collected succesfully!
+Current operation took 10.592490196228027
+83 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:15:36 2019 https://prom.ua/ua/p480596964-dvuspalnyj-komplekt-postelnogo.html is collected succesfully!
+Current operation took 9.7514967918396
+84 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:15:49 2019 https://prom.ua/ua/p929328307-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 13.237803220748901
+85 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:16:02 2019 https://prom.ua/ua/p567567933-postelnoe-vilyuta-ranfors.html is collected succesfully!
+Current operation took 13.516013860702515
+86 / 93
+
+Checking for proxy: 151.253.165.70:8080
+200
+Chosen proxy is 151.253.165.70:8080
+Wed Dec 11 17:16:11 2019 https://prom.ua/ua/p1084123248-dvuspalnyj-komplekt-postelnogo.html is collected succesfully!
+Current operation took 8.918659210205078
+87 / 93
+
+Checking for proxy: 151.253.165.70:8080
+Checking for proxy: 3.93.103.201:8080
+Checking for proxy: 191.242.182.132:8081
+Checking for proxy: 77.68.77.181:80
+Checking for proxy: 200.89.174.109:8080
+Checking for proxy: 209.80.12.180:80
+Checking for proxy: 24.217.192.131:57273
+Checking for proxy: 103.11.107.67:53398
+200
+Chosen proxy is 103.11.107.67:53398
+Wed Dec 11 17:21:29 2019 https://prom.ua/ua/p655771228-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 317.63240122795105
+88 / 93
+
+Checking for proxy: 103.11.107.67:53398
+Checking for proxy: 103.255.53.98:55969
+Checking for proxy: 125.141.219.117:80
+Checking for proxy: 193.178.50.49:3128
+Checking for proxy: 103.225.228.233:58732
+Checking for proxy: 186.219.213.67:60446
+Checking for proxy: 49.51.193.134:1080
+Checking for proxy: 202.168.158.163:32307
+Checking for proxy: 95.156.125.190:41870
+Checking for proxy: 36.89.182.3:50733
+Checking for proxy: 139.59.62.255:3128
+Checking for proxy: 110.172.135.234:44762
+200
+Chosen proxy is 110.172.135.234:44762
+Wed Dec 11 17:26:11 2019 https://prom.ua/ua/p542445177-polutornyj-komplekt-hotel.html is collected succesfully!
+Current operation took 281.7429287433624
+89 / 93
+
+Checking for proxy: 110.172.135.234:44762
+200
+Chosen proxy is 110.172.135.234:44762
+Wed Dec 11 17:26:29 2019 https://prom.ua/ua/p1070902407-dvuspalnyj-komplekt-kombinirovanogo.html is collected succesfully!
+Current operation took 18.754790544509888
+90 / 93
+
+Checking for proxy: 110.172.135.234:44762
+200
+Chosen proxy is 110.172.135.234:44762
+Wed Dec 11 17:26:42 2019 https://prom.ua/ua/p633573576-postelnoe-bele-satin.html is collected succesfully!
+Current operation took 12.40556526184082
+91 / 93
+
+Checking for proxy: 110.172.135.234:44762
+200
+Chosen proxy is 110.172.135.234:44762
+Wed Dec 11 17:26:53 2019 https://prom.ua/ua/p686730887-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 11.342836380004883
+92 / 93
+
+Checking for proxy: 110.172.135.234:44762
+Checking for proxy: 95.84.168.158:58137
+Checking for proxy: 192.169.156.163:80
+Checking for proxy: 85.234.126.107:55555
+Checking for proxy: 89.216.48.230:44061
+Checking for proxy: 170.0.48.38:57867
+Checking for proxy: 207.144.111.230:8080
+Checking for proxy: 75.146.218.153:55768
+Checking for proxy: 207.154.231.212:8080
+Checking for proxy: 130.185.79.95:443
+Checking for proxy: 202.136.88.58:38210
+Checking for proxy: 46.98.74.38:53281
+Checking for proxy: 41.217.216.45:33602
+Checking for proxy: 138.197.104.219:3128
+Checking for proxy: 174.127.155.118:32505
+Checking for proxy: 103.250.70.9:51370
+Checking for proxy: 167.172.32.233:3128
+502
+Chosen proxy is 167.172.32.233:3128
+0
+0
+
+Checking for proxy: 167.172.32.233:3128
+Checking for proxy: 216.228.69.202:32170
+Checking for proxy: 51.38.22.57:8522
+503
+Chosen proxy is 51.38.22.57:8522
+0
+0
+
+Checking for proxy: 51.38.22.57:8522
+Checking for proxy: 41.190.147.158:49088
+Checking for proxy: 36.66.126.71:35036
+Checking for proxy: 216.169.73.65:40344
+Checking for proxy: 213.33.224.82:8080
+Checking for proxy: 207.154.231.216:3128
+Checking for proxy: 91.206.210.54:56631
+Checking for proxy: 119.15.82.222:37790
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+46
+48
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:44:40 2019 https://prom.ua/ua/p1013281242-komplekt-semejnogo-postelnogo.html is collected succesfully!
+Current operation took 7.474624872207642
+0 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:44:56 2019 https://prom.ua/ua/p871358694-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 16.14841651916504
+1 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:45:12 2019 https://prom.ua/ua/p660689522-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 15.842418193817139
+2 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:45:28 2019 https://prom.ua/ua/p892136670-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 15.60019326210022
+3 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:45:39 2019 https://prom.ua/ua/p1069920378-postelnoe-bele-luxyart.html is collected succesfully!
+Current operation took 11.545459032058716
+4 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:45:48 2019 https://prom.ua/ua/p999324684-sovremennyj-polutornyj-komplekt.html is collected succesfully!
+Current operation took 8.980174541473389
+5 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:45:59 2019 https://prom.ua/ua/p1010603874-postelnoe-bele-semejnyj.html is collected succesfully!
+Current operation took 10.723599672317505
+6 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:46:08 2019 https://prom.ua/ua/p985461247-postelnoe-bele.html is collected succesfully!
+Current operation took 9.210866689682007
+7 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:46:24 2019 https://prom.ua/ua/p952928611-postelnoe-bele-tep.html is collected succesfully!
+Current operation took 16.302494764328003
+8 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:46:33 2019 https://prom.ua/ua/p1066611442-dvuspalnyj-komplekt-ranforsa.html is collected succesfully!
+Current operation took 8.075116395950317
+9 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:46:45 2019 https://prom.ua/ua/p757489020-postelnoe-bele-chernyj.html is collected succesfully!
+Current operation took 12.452888011932373
+10 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:46:58 2019 https://prom.ua/ua/p844231094-postelnoe-bele-tet.html is collected succesfully!
+Current operation took 13.21926474571228
+11 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:47:13 2019 https://prom.ua/ua/p1086092455-dvuspalnyj-komplekt-postelnogo.html is collected succesfully!
+Current operation took 14.578310012817383
+12 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:47:29 2019 https://prom.ua/ua/p1070848830-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 16.415241479873657
+13 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:47:44 2019 https://prom.ua/ua/p845708083-postelnoe-belyobyazdvuhspalnyj-komplekt.html is collected succesfully!
+Current operation took 14.828622341156006
+14 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:47:58 2019 https://prom.ua/ua/p993269593-postelnoe-belyo-byaz.html is collected succesfully!
+Current operation took 13.863100051879883
+15 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:48:17 2019 https://prom.ua/ua/p445361382-postelnoe-bele-tep.html is collected succesfully!
+Current operation took 18.602377891540527
+16 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:48:30 2019 https://prom.ua/ua/p1060650540-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 13.49904465675354
+17 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:48:39 2019 https://prom.ua/ua/p1000553408-postelnyj-komplekt-polutornyj.html is collected succesfully!
+Current operation took 8.752990245819092
+18 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:48:46 2019 https://prom.ua/ua/p1069937089-postelnoe-bele-luxyart.html is collected succesfully!
+Current operation took 7.550359487533569
+19 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:49:01 2019 https://prom.ua/ua/p1065947523-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 15.091704845428467
+20 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:49:14 2019 https://prom.ua/ua/p999324644-polutornoe-postelnoe-bele.html is collected succesfully!
+Current operation took 12.610098600387573
+21 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:49:30 2019 https://prom.ua/ua/p1058627154-polutornyj-komplekt-postelnogo.html is collected succesfully!
+Current operation took 16.079905033111572
+22 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:49:43 2019 https://prom.ua/ua/p1092574084-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 12.888410091400146
+23 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:50:00 2019 https://prom.ua/ua/p1059134702-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 17.03982949256897
+24 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:50:16 2019 https://prom.ua/ua/p560875171-postelnoe-bele-casa.html is collected succesfully!
+Current operation took 15.549047708511353
+25 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:50:32 2019 https://prom.ua/ua/p844490182-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 16.519997596740723
+26 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:50:43 2019 https://prom.ua/ua/p1050671253-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 11.105789184570312
+27 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:50:53 2019 https://prom.ua/ua/p773632645-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 9.572556018829346
+28 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:51:03 2019 https://prom.ua/ua/p863247374-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 9.889892339706421
+29 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:51:11 2019 https://prom.ua/ua/p1080782461-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 8.38161039352417
+30 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:51:24 2019 https://prom.ua/ua/p766012238-kollektsiya-vdohnovenie-tsvet.html is collected succesfully!
+Current operation took 12.93407416343689
+31 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:51:42 2019 https://prom.ua/ua/p914588583-postelnoe-bele-evro.html is collected succesfully!
+Current operation took 17.71081781387329
+32 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:51:55 2019 https://prom.ua/ua/p1037249043-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 13.34563136100769
+33 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:52:11 2019 https://prom.ua/ua/p1027943774-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 16.29597568511963
+34 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:52:21 2019 https://prom.ua/ua/p644513171-postelnoe-byaz-gold.html is collected succesfully!
+Current operation took 9.388541221618652
+35 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:52:29 2019 https://prom.ua/ua/p964382389-postelnoe-bele-viluta.html is collected succesfully!
+Current operation took 7.887462854385376
+36 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:52:43 2019 https://prom.ua/ua/p844202192-postelnoe-bele-tet.html is collected succesfully!
+Current operation took 14.549476861953735
+37 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:52:58 2019 https://prom.ua/ua/p1013276899-komplekt-dvuspalnogo-postelnogo.html is collected succesfully!
+Current operation took 15.206917762756348
+38 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:53:12 2019 https://prom.ua/ua/p821076249-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 13.261909246444702
+39 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:53:25 2019 https://prom.ua/ua/p1023017454-evro-komplekt-postelnogo.html is collected succesfully!
+Current operation took 13.468785524368286
+40 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:53:34 2019 https://prom.ua/ua/p864480530-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 8.890830755233765
+41 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:53:45 2019 https://prom.ua/ua/p1034001909-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 10.784371376037598
+42 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:53:53 2019 https://prom.ua/ua/p675644378-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 8.449304580688477
+43 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:54:01 2019 https://prom.ua/ua/p937446912-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 7.66275429725647
+44 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:54:12 2019 https://prom.ua/ua/p870822074-postelnoe-belyo-byaz.html is collected succesfully!
+Current operation took 10.909062147140503
+45 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:54:29 2019 https://prom.ua/ua/p911338012-dvuspalnyj-komplekt-postelnogo.html is collected succesfully!
+Current operation took 17.078192710876465
+46 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:54:41 2019 https://prom.ua/ua/p1089149300-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 12.16005563735962
+47 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:54:50 2019 https://prom.ua/ua/p914232675-dvuspalnyj-komplekt-postelnogo.html is collected succesfully!
+Current operation took 8.844001054763794
+48 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:55:04 2019 https://prom.ua/ua/p983969597-enej-plyus-semejnyj.html is collected succesfully!
+Current operation took 14.552517414093018
+49 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:55:19 2019 https://prom.ua/ua/p1002635737-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 15.043996810913086
+50 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:55:32 2019 https://prom.ua/ua/p838140473-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 12.456212520599365
+51 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:55:45 2019 https://prom.ua/ua/p1087543709-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 13.44962739944458
+52 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:56:02 2019 https://prom.ua/ua/p1094664186-atlasnoe-postelnoe-bele.html is collected succesfully!
+Current operation took 16.16970658302307
+53 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:56:13 2019 https://prom.ua/ua/p1086528328-dvuhspalnoe-postelnoe-bele.html is collected succesfully!
+Current operation took 11.440817832946777
+54 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:56:35 2019 https://prom.ua/ua/p1050663307-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 22.115245819091797
+55 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:56:50 2019 https://prom.ua/ua/p1004375063-postelnyj-nabor-dlya.html is collected succesfully!
+Current operation took 14.509916543960571
+56 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:57:05 2019 https://prom.ua/ua/p1082814068-postelnyj-komplekt-viluta.html is collected succesfully!
+Current operation took 15.094000816345215
+57 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:57:19 2019 https://prom.ua/ua/p1022211942-komplekt-postilnoyi-bilizni.html is collected succesfully!
+Current operation took 13.936276197433472
+58 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:57:29 2019 https://prom.ua/ua/p886546597-dvuspalnyj-komplekt-postelnogo.html is collected succesfully!
+Current operation took 10.418212652206421
+59 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:57:46 2019 https://prom.ua/ua/p608562954-nabor-postelnogo-belya.html is collected succesfully!
+Current operation took 16.459349393844604
+60 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:57:58 2019 https://prom.ua/ua/p961420763-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 12.497162342071533
+61 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:58:14 2019 https://prom.ua/ua/p1041220071-postelnoe-bele-detskoe.html is collected succesfully!
+Current operation took 15.875398397445679
+62 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:58:30 2019 https://prom.ua/ua/p648061147-dvuspalnoe-postelnoe-bele.html is collected succesfully!
+Current operation took 16.036667585372925
+63 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:58:49 2019 https://prom.ua/ua/p1053613937-postelnoe-bele-ryushami.html is collected succesfully!
+Current operation took 19.03056573867798
+64 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:59:03 2019 https://prom.ua/ua/p900757696-evro-maksi-komplekt.html is collected succesfully!
+Current operation took 13.726083993911743
+65 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:59:18 2019 https://prom.ua/ua/p958423357-komplekt-semejnogo-postelnogo.html is collected succesfully!
+Current operation took 15.72553300857544
+66 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:59:29 2019 https://prom.ua/ua/p819053150-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 10.778374671936035
+67 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:59:38 2019 https://prom.ua/ua/p750502957-postelnoe-bele-dvuspalnoe.html is collected succesfully!
+Current operation took 9.20246958732605
+68 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:59:46 2019 https://prom.ua/ua/p1033925946-postelnoe-bele-komplekt.html is collected succesfully!
+Current operation took 7.456492185592651
+69 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 17:59:59 2019 https://prom.ua/ua/p1027270802-komplekt-postilnoyi-bilizni.html is collected succesfully!
+Current operation took 13.509523391723633
+70 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 18:00:11 2019 https://prom.ua/ua/p1089364262-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 11.486607551574707
+71 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 18:00:26 2019 https://prom.ua/ua/p658122554-postelnoe-bele-lotus.html is collected succesfully!
+Current operation took 15.503466367721558
+72 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 18:00:38 2019 https://prom.ua/ua/p1053627166-postelnoe-bele-mahrovoe.html is collected succesfully!
+Current operation took 11.587430000305176
+73 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 18:00:53 2019 https://prom.ua/ua/p818312290-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 15.378326416015625
+74 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 18:01:10 2019 https://prom.ua/ua/p814430031-postelnoe-bele-byaz.html is collected succesfully!
+Current operation took 16.43191909790039
+75 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 18:01:20 2019 https://prom.ua/ua/p719804165-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 10.471052885055542
+76 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 18:01:34 2019 https://prom.ua/ua/p968073688-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 13.496691226959229
+77 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 18:01:48 2019 https://prom.ua/ua/p1094281993-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 14.582247018814087
+78 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 18:02:06 2019 https://prom.ua/ua/p1054355816-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 17.6782329082489
+79 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 18:02:23 2019 https://prom.ua/ua/p1027270272-komplekt-postilnoyi-bilizni.html is collected succesfully!
+Current operation took 16.92383909225464
+80 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 18:02:40 2019 https://prom.ua/ua/p808186292-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 17.446795225143433
+81 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 18:02:55 2019 https://prom.ua/ua/p772423629-semejnyj-postelnyj-komplekt.html is collected succesfully!
+Current operation took 15.097060203552246
+82 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 18:03:13 2019 https://prom.ua/ua/p765454473-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 17.252223014831543
+83 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 18:03:21 2019 https://prom.ua/ua/p1084967064-postelnoe-bele-5400.html is collected succesfully!
+Current operation took 8.502168416976929
+84 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 18:03:29 2019 https://prom.ua/ua/p888520559-detskaya-postel-lol.html is collected succesfully!
+Current operation took 8.161716222763062
+85 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 18:03:38 2019 https://prom.ua/ua/p640580325-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 9.103147268295288
+86 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 18:03:51 2019 https://prom.ua/ua/p1043389882-postelnoe-bele-byaz.html is collected succesfully!
+Current operation took 12.181714296340942
+87 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 18:04:02 2019 https://prom.ua/ua/p946574225-postelnoe-bele-detskoe.html is collected succesfully!
+Current operation took 11.138376951217651
+88 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 18:04:21 2019 https://prom.ua/ua/p1027983121-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 19.137999773025513
+89 / 94
+
+Checking for proxy: 187.53.61.50:80
+200
+Chosen proxy is 187.53.61.50:80
+Wed Dec 11 18:04:35 2019 https://prom.ua/ua/p972228113-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 13.881614446640015
+90 / 94
+
+Checking for proxy: 187.53.61.50:80
+Checking for proxy: 96.30.195.225:3128
+Checking for proxy: 74.113.173.78:47208
+Checking for proxy: 114.134.191.194:31867
+Checking for proxy: 192.140.42.28:39653
+Checking for proxy: 103.242.14.8:48791
+Checking for proxy: 45.61.116.145:80
+Checking for proxy: 93.76.211.56:51752
+Checking for proxy: 103.141.123.6:41674
+Checking for proxy: 198.199.120.102:3128
+Checking for proxy: 148.251.200.194:1080
+Checking for proxy: 203.77.229.124:8080
+200
+Chosen proxy is 203.77.229.124:8080
+Wed Dec 11 18:08:17 2019 https://prom.ua/ua/p1038277493-postelnyj-komplekt-byaz.html is collected succesfully!
+Current operation took 222.2512378692627
+91 / 94
+
+Checking for proxy: 203.77.229.124:8080
+Checking for proxy: 110.77.132.217:8213
+Checking for proxy: 168.196.204.16:52821
+Checking for proxy: 103.225.228.233:58732
+Checking for proxy: 23.101.2.247:81
+Checking for proxy: 45.55.27.161:3128
+Checking for proxy: 198.58.45.195:80
+Checking for proxy: 84.19.38.41:51885
+Checking for proxy: 18.216.230.166:80
+Checking for proxy: 8.209.95.100:3128
+Checking for proxy: 177.135.228.3:53281
+200
+Chosen proxy is 177.135.228.3:53281
+Wed Dec 11 18:13:02 2019 https://prom.ua/ua/p754884708-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 284.82865691185
+92 / 94
+
+Checking for proxy: 177.135.228.3:53281
+Checking for proxy: 138.68.165.154:3128
+Checking for proxy: 212.200.27.134:8080
+Checking for proxy: 105.235.197.162:32997
+Checking for proxy: 107.178.4.215:31376
+Checking for proxy: 84.42.253.252:52854
+Checking for proxy: 138.197.204.55:8080
+Checking for proxy: 103.106.32.242:49714
+200
+Chosen proxy is 103.106.32.242:49714
+Wed Dec 11 18:15:48 2019 https://prom.ua/ua/p1053984022-postelnoe-bele-polutornoe.html is collected succesfully!
+Current operation took 166.59031200408936
+93 / 94
+
+Checking for proxy: 103.106.32.242:49714
+Checking for proxy: 187.111.192.146:44794
+Checking for proxy: 128.199.185.154:3128
+200
+Chosen proxy is 128.199.185.154:3128
+46
+47
+
+Checking for proxy: 128.199.185.154:3128
+200
+Chosen proxy is 128.199.185.154:3128
+Wed Dec 11 18:17:33 2019 https://prom.ua/ua/p501928101-polutornyj-komplekt-hotel.html is collected succesfully!
+Current operation took 20.643616676330566
+0 / 93
+
+Checking for proxy: 128.199.185.154:3128
+Checking for proxy: 86.57.219.185:23500
+Checking for proxy: 81.200.63.108:60579
+Checking for proxy: 154.73.108.49:53281
+Checking for proxy: 86.57.177.8:54296
+Checking for proxy: 79.115.245.227:8080
+Checking for proxy: 5.23.103.98:43788
+200
+Chosen proxy is 5.23.103.98:43788
+Wed Dec 11 18:20:21 2019 https://prom.ua/ua/p1069905106-postelnoe-bele-luxyart.html is collected succesfully!
+Current operation took 167.71879267692566
+1 / 93
+
+Checking for proxy: 5.23.103.98:43788
+200
+Chosen proxy is 5.23.103.98:43788
+Wed Dec 11 18:20:40 2019 https://prom.ua/ua/p999324657-shikarnyj-semejnyj-postelnyj.html is collected succesfully!
+Current operation took 18.96302604675293
+2 / 93
+
+Checking for proxy: 5.23.103.98:43788
+200
+Chosen proxy is 5.23.103.98:43788
+Wed Dec 11 18:20:58 2019 https://prom.ua/ua/p473389551-evro-komplekt-postelnogo.html is collected succesfully!
+Current operation took 17.57742190361023
+3 / 93
+
+Checking for proxy: 5.23.103.98:43788
+Checking for proxy: 118.99.100.248:8080
+Checking for proxy: 63.246.57.113:46312
+200
+Chosen proxy is 63.246.57.113:46312
+Wed Dec 11 18:22:06 2019 https://prom.ua/ua/p1024236734-enej-plyus-semejnyj.html is collected succesfully!
+Current operation took 68.33541512489319
+4 / 93
+
+Checking for proxy: 63.246.57.113:46312
+Checking for proxy: 37.111.42.210:8080
+Checking for proxy: 69.65.65.178:57556
+Checking for proxy: 105.235.193.94:46748
+Checking for proxy: 24.106.221.230:53281
+Checking for proxy: 47.89.244.225:808
+Checking for proxy: 182.253.121.26:23500
+Checking for proxy: 69.243.237.81:8080
+Checking for proxy: 138.68.41.90:3128
+Checking for proxy: 212.95.180.50:53281
+200
+Chosen proxy is 212.95.180.50:53281
+Wed Dec 11 18:25:27 2019 https://prom.ua/ua/p400452686-postelnoe-bele-dvuspalnoe.html is collected succesfully!
+Current operation took 200.74118161201477
+5 / 93
+
+Checking for proxy: 212.95.180.50:53281
+Checking for proxy: 104.3.189.30:38087
+Checking for proxy: 162.243.108.129:3128
+Checking for proxy: 49.51.195.24:1080
+Checking for proxy: 81.200.63.108:60579
+Checking for proxy: 12.218.209.130:53281
+Checking for proxy: 61.238.82.203:8080
+Checking for proxy: 159.203.166.41:8080
+Checking for proxy: 47.89.193.30:8118
+Checking for proxy: 62.85.57.43:53281
+Checking for proxy: 54.174.149.97:80
+Checking for proxy: 23.80.121.202:30201
+200
+Chosen proxy is 23.80.121.202:30201
+Wed Dec 11 18:29:49 2019 https://prom.ua/ua/p1066588990-polutornyj-komplekt-ranforsa.html is collected succesfully!
+Current operation took 261.75441884994507
+6 / 93
+
+Checking for proxy: 23.80.121.202:30201
+200
+Chosen proxy is 23.80.121.202:30201
+Wed Dec 11 18:30:35 2019 https://prom.ua/ua/p975784913-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 46.87011480331421
+7 / 93
+
+Checking for proxy: 23.80.121.202:30201
+Checking for proxy: 103.105.212.106:53281
+Checking for proxy: 69.130.120.228:46439
+Checking for proxy: 103.70.147.239:39850
+Checking for proxy: 148.251.186.160:1080
+Checking for proxy: 119.82.252.122:36182
+Checking for proxy: 98.0.162.70:35576
+Checking for proxy: 181.129.74.58:34999
+Checking for proxy: 208.98.185.89:53630
+Checking for proxy: 45.234.200.18:53281
+200
+Chosen proxy is 45.234.200.18:53281
+Wed Dec 11 18:34:39 2019 https://prom.ua/ua/p1045778761-semejnoe-postelnoe-bele.html is collected succesfully!
+Current operation took 243.95199131965637
+8 / 93
+
+Checking for proxy: 45.234.200.18:53281
+Checking for proxy: 91.207.238.107:57164
+Checking for proxy: 167.172.32.233:3128
+Checking for proxy: 138.186.21.86:53281
+200
+Chosen proxy is 138.186.21.86:53281
+Wed Dec 11 18:36:35 2019 https://prom.ua/ua/p1073723170-postelnoe-bele-160220.html is collected succesfully!
+Current operation took 115.87360072135925
+9 / 93
+
+Checking for proxy: 138.186.21.86:53281
+Checking for proxy: 151.248.112.28:3128
+Checking for proxy: 8.209.95.81:3128
+200
+Chosen proxy is 8.209.95.81:3128
+Wed Dec 11 18:37:38 2019 https://prom.ua/ua/p1031352480-plyushevyj-pled.html is collected succesfully!
+Current operation took 63.077656269073486
+10 / 93
+
+Checking for proxy: 8.209.95.81:3128
+200
+Chosen proxy is 8.209.95.81:3128
+Wed Dec 11 18:37:52 2019 https://prom.ua/ua/p1036141533-postelnoe-bele-dvuspalnoe.html is collected succesfully!
+Current operation took 14.074743270874023
+11 / 93
+
+Checking for proxy: 8.209.95.81:3128
+Checking for proxy: 202.138.247.155:8080
+Checking for proxy: 8.209.94.61:3128
+Checking for proxy: 139.59.109.156:3128
+Checking for proxy: 49.51.68.122:1080
+Checking for proxy: 98.172.142.205:8080
+Checking for proxy: 202.182.48.86:57942
+200
+Chosen proxy is 202.182.48.86:57942
+Wed Dec 11 18:40:32 2019 https://prom.ua/ua/p1012369712-postelnoe-bele-dvuspalnoe.html is collected succesfully!
+Current operation took 159.10590887069702
+12 / 93
+
+Checking for proxy: 202.182.48.86:57942
+Checking for proxy: 157.230.162.226:8118
+Checking for proxy: 138.255.32.65:34641
+Checking for proxy: 182.52.51.43:36601
+Checking for proxy: 118.172.211.37:58728
+200
+Chosen proxy is 118.172.211.37:58728
+Wed Dec 11 18:42:54 2019 https://prom.ua/ua/p1016159702-byaz-semejnyj-komplekt.html is collected succesfully!
+Current operation took 142.78963589668274
+13 / 93
+
+Checking for proxy: 118.172.211.37:58728
+Checking for proxy: 217.64.109.231:45282
+Checking for proxy: 104.198.232.184:80
+Checking for proxy: 159.224.182.206:44280
+Checking for proxy: 91.207.238.107:57164
+Checking for proxy: 178.218.104.8:49707
+Checking for proxy: 178.134.123.38:8888
+Checking for proxy: 117.102.68.210:53281
+200
+Chosen proxy is 117.102.68.210:53281
+Wed Dec 11 18:46:28 2019 https://prom.ua/ua/p1069937089-postelnoe-bele-luxyart.html is collected succesfully!
+Current operation took 213.72607851028442
+14 / 93
+
+Checking for proxy: 117.102.68.210:53281
+Checking for proxy: 78.60.203.75:37068
+Checking for proxy: 46.35.249.189:60455
+Checking for proxy: 41.93.47.2:58097
+Checking for proxy: 92.247.142.14:53281
+Checking for proxy: 54.169.99.254:80
+Checking for proxy: 47.89.244.225:808
+Checking for proxy: 174.138.54.49:8080
+Checking for proxy: 1.2.169.101:47477
+Checking for proxy: 188.226.141.61:3128
+Checking for proxy: 193.178.50.49:3128
+200
+Chosen proxy is 193.178.50.49:3128
+Wed Dec 11 18:49:07 2019 https://prom.ua/ua/p1067425344-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 158.45928692817688
+15 / 93
+
+Checking for proxy: 193.178.50.49:3128
+Checking for proxy: 8.209.94.142:3128
+Checking for proxy: 88.198.24.108:8080
+Checking for proxy: 49.51.193.134:1080
+Checking for proxy: 138.197.145.103:8080
+Checking for proxy: 45.123.43.66:59627
+Checking for proxy: 46.173.105.151:41258
+200
+Chosen proxy is 46.173.105.151:41258
+Wed Dec 11 18:51:18 2019 https://prom.ua/ua/p999324596-evro-postelnoe-bele.html is collected succesfully!
+Current operation took 131.21160864830017
+16 / 93
+
+Checking for proxy: 46.173.105.151:41258
+200
+Chosen proxy is 46.173.105.151:41258
+Wed Dec 11 18:51:28 2019 https://prom.ua/ua/p1061233342-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 10.355302095413208
+17 / 93
+
+Checking for proxy: 46.173.105.151:41258
+Checking for proxy: 78.186.237.112:53281
+200
+Chosen proxy is 78.186.237.112:53281
+Wed Dec 11 18:52:21 2019 https://prom.ua/ua/p1071633749-postelnoe-bele-polutornoe.html is collected succesfully!
+Current operation took 52.57431149482727
+18 / 93
+
+Checking for proxy: 78.186.237.112:53281
+200
+Chosen proxy is 78.186.237.112:53281
+Wed Dec 11 18:52:58 2019 https://prom.ua/ua/p1013276917-komplekt-dvuspalnogo-postelnogo.html is collected succesfully!
+Current operation took 37.44132351875305
+19 / 93
+
+Checking for proxy: 78.186.237.112:53281
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 18:53:46 2019 https://prom.ua/ua/p1094766051-postelnyj-komplekt-moon.html is collected succesfully!
+Current operation took 48.07226061820984
+20 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 18:54:06 2019 https://prom.ua/ua/p1081289633-postilnij-komplekt-flamingo.html is collected succesfully!
+Current operation took 19.50208854675293
+21 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 18:54:20 2019 https://prom.ua/ua/p1052174615-postelnoe-bele-spalnoe.html is collected succesfully!
+Current operation took 14.176318883895874
+22 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 18:54:31 2019 https://prom.ua/ua/p973583170-postilna-bilizna-polutorna.html is collected succesfully!
+Current operation took 11.142910957336426
+23 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 18:54:39 2019 https://prom.ua/ua/p988582434-postelnoe-bele-viluta.html is collected succesfully!
+Current operation took 8.176831722259521
+24 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 18:54:55 2019 https://prom.ua/ua/p1062160976-polutornyj-komplekt-rozy.html is collected succesfully!
+Current operation took 15.864557981491089
+25 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 18:55:07 2019 https://prom.ua/ua/p1094350710-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 11.567994832992554
+26 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 18:55:16 2019 https://prom.ua/ua/p1079489026-postelnoe-belyo-satin.html is collected succesfully!
+Current operation took 9.511061906814575
+27 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 18:55:25 2019 https://prom.ua/ua/p819429982-postelnoe-belyo-byaz.html is collected succesfully!
+Current operation took 8.873409748077393
+28 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 18:55:34 2019 https://prom.ua/ua/p1093368029-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 9.133597135543823
+29 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 18:55:55 2019 https://prom.ua/ua/p871423856-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 21.0287926197052
+30 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 18:56:13 2019 https://prom.ua/ua/p1032427856-postelnoe-bele-luxyart.html is collected succesfully!
+Current operation took 18.178436994552612
+31 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 18:56:39 2019 https://prom.ua/ua/p496196499-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 25.735262393951416
+32 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 18:56:55 2019 https://prom.ua/ua/p1003699997-seroe-dvuspalnoe-postelnoe.html is collected succesfully!
+Current operation took 16.15366768836975
+33 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 18:57:12 2019 https://prom.ua/ua/p844213315-postelnoe-bele-tet.html is collected succesfully!
+Current operation took 17.044960021972656
+34 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 18:57:23 2019 https://prom.ua/ua/p1000553413-postelnyj-komplekt-dvuspalnyj.html is collected succesfully!
+Current operation took 10.783090353012085
+35 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 18:57:32 2019 https://prom.ua/ua/p957677715-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 8.458106279373169
+36 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 18:57:45 2019 https://prom.ua/ua/p910188111-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 13.954843759536743
+37 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 18:58:00 2019 https://prom.ua/ua/p1011580087-semejnoe-postelnoe-bele.html is collected succesfully!
+Current operation took 14.205295085906982
+38 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 18:58:15 2019 https://prom.ua/ua/p987046900-postelnoe-bele-evro.html is collected succesfully!
+Current operation took 14.874909162521362
+39 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 18:58:32 2019 https://prom.ua/ua/p838130790-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 17.353621006011963
+40 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 18:58:46 2019 https://prom.ua/ua/p929998991-postelnoe-bele-zhatka.html is collected succesfully!
+Current operation took 13.908459901809692
+41 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 18:58:58 2019 https://prom.ua/ua/p883863865-300-postelnoe-bele.html is collected succesfully!
+Current operation took 12.41618037223816
+42 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 18:59:15 2019 https://prom.ua/ua/p1066613250-dvuspalnyj-komplekt-ranforsa.html is collected succesfully!
+Current operation took 17.268003225326538
+43 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 18:59:34 2019 https://prom.ua/ua/p1065645876-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 18.41801357269287
+44 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 18:59:48 2019 https://prom.ua/ua/p903723328-postelnoe-bele-satina.html is collected succesfully!
+Current operation took 14.059077024459839
+45 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 18:59:58 2019 https://prom.ua/ua/p683528729-komplekt-semejnyj-17195.html is collected succesfully!
+Current operation took 10.056650638580322
+46 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:00:15 2019 https://prom.ua/ua/p877731367-evro-odnotonnoe-postelnoe.html is collected succesfully!
+Current operation took 16.54685950279236
+47 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:00:30 2019 https://prom.ua/ua/p952083983-dvospalnij-komplekt-postilnoyi.html is collected succesfully!
+Current operation took 15.105718612670898
+48 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:00:59 2019 https://prom.ua/ua/p1008448644-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 29.67519187927246
+49 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:01:15 2019 https://prom.ua/ua/p896412912-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 15.203370332717896
+50 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:02:25 2019 https://prom.ua/ua/p696209298-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 70.50125002861023
+51 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:02:40 2019 https://prom.ua/ua/p687085005-komplekti-postilnoyi-bilizni.html is collected succesfully!
+Current operation took 15.294771909713745
+52 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:03:06 2019 https://prom.ua/ua/p954939403-postelnoe-belyo-byaz.html is collected succesfully!
+Current operation took 25.484266996383667
+53 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:03:30 2019 https://prom.ua/ua/p861861291-dvuhspalnyj-postelnyj-komplekt.html is collected succesfully!
+Current operation took 23.94200873374939
+54 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:04:04 2019 https://prom.ua/ua/p940501550-komplekt-posteli-verblyuzhej.html is collected succesfully!
+Current operation took 33.82501792907715
+55 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:04:21 2019 https://prom.ua/ua/p910717696-postelnoe-bele-satin.html is collected succesfully!
+Current operation took 17.512794017791748
+56 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:04:43 2019 https://prom.ua/ua/p1066638412-postelnoe-bele-polutornyj.html is collected succesfully!
+Current operation took 22.111560344696045
+57 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:04:58 2019 https://prom.ua/ua/p915734044-evro-maksi-komplekt.html is collected succesfully!
+Current operation took 14.826494216918945
+58 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:05:21 2019 https://prom.ua/ua/p1016724776-postelnoe-bele-polutornoe.html is collected succesfully!
+Current operation took 23.0843608379364
+59 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:05:40 2019 https://prom.ua/ua/p975784902-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 19.08816885948181
+60 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:05:57 2019 https://prom.ua/ua/p815364885-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 17.085517168045044
+61 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:06:32 2019 https://prom.ua/ua/p1045766976-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 35.062562227249146
+62 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:06:54 2019 https://prom.ua/ua/p1081418073-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 21.98763155937195
+63 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:07:11 2019 https://prom.ua/ua/p1031361438-plyushevyj-pled.html is collected succesfully!
+Current operation took 16.461471796035767
+64 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:07:25 2019 https://prom.ua/ua/p820785203-postelnoe-bele-viluta.html is collected succesfully!
+Current operation took 14.073960781097412
+65 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:07:37 2019 https://prom.ua/ua/p868112420-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 11.934107542037964
+66 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:07:52 2019 https://prom.ua/ua/p880763102-komplekty-postelnogo-belya.html is collected succesfully!
+Current operation took 15.664499759674072
+67 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:08:11 2019 https://prom.ua/ua/p723650836-polutornoe-postelnoe-bele.html is collected succesfully!
+Current operation took 18.446911096572876
+68 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:08:22 2019 https://prom.ua/ua/p1008099961-kpb-evro-hlopok.html is collected succesfully!
+Current operation took 10.659705400466919
+69 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:08:57 2019 https://prom.ua/ua/p1048573894-postelnoe-bele-poliestera.html is collected succesfully!
+Current operation took 34.93140149116516
+70 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:09:39 2019 https://prom.ua/ua/p985460164-postelnoe-bele.html is collected succesfully!
+Current operation took 42.31754398345947
+71 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:10:34 2019 https://prom.ua/ua/p1069080447-komplekt-postilnoyi-bilizni.html is collected succesfully!
+Current operation took 54.93890452384949
+72 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:10:56 2019 https://prom.ua/ua/p752459651-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 22.646389722824097
+73 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:11:21 2019 https://prom.ua/ua/p1009792769-postelnoe-bele-klassicheskoj.html is collected succesfully!
+Current operation took 24.17749571800232
+74 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:11:53 2019 https://prom.ua/ua/p1026304744-postelnoe-bele-byaz.html is collected succesfully!
+Current operation took 32.72825884819031
+75 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:12:16 2019 https://prom.ua/ua/p957677727-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 23.16364336013794
+76 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:12:35 2019 https://prom.ua/ua/p905734727-postelnoe-bele-hlopkovye.html is collected succesfully!
+Current operation took 18.477294445037842
+77 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:12:46 2019 https://prom.ua/ua/p916555898-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 11.30824613571167
+78 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:13:06 2019 https://prom.ua/ua/p928222762-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 19.30576992034912
+79 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:13:32 2019 https://prom.ua/ua/p1027270632-komplekt-postilnoyi-bilizni.html is collected succesfully!
+Current operation took 26.072478532791138
+80 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:13:54 2019 https://prom.ua/ua/p945005450-komplekt-postilnoyi-bilizni.html is collected succesfully!
+Current operation took 22.755860567092896
+81 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:14:14 2019 https://prom.ua/ua/p1073723165-postelnoe-bele-160220.html is collected succesfully!
+Current operation took 19.164429903030396
+82 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:14:35 2019 https://prom.ua/ua/p1081373110-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 21.279818296432495
+83 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:14:56 2019 https://prom.ua/ua/p1087622859-kruglaya-prostyn-premium.html is collected succesfully!
+Current operation took 21.615406274795532
+84 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:15:11 2019 https://prom.ua/ua/p1002374164-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 14.960243701934814
+85 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:15:26 2019 https://prom.ua/ua/p1084217728-stilnoe-postelnoe-bele.html is collected succesfully!
+Current operation took 14.9063401222229
+86 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:15:53 2019 https://prom.ua/ua/p901006073-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 26.489134311676025
+87 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:16:09 2019 https://prom.ua/ua/p1068994166-dvuspalnyj-komplekt-postelnogo.html is collected succesfully!
+Current operation took 16.604886293411255
+88 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:16:27 2019 https://prom.ua/ua/p1038108299-postelnoe-bele-byaz.html is collected succesfully!
+Current operation took 17.537480354309082
+89 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:16:52 2019 https://prom.ua/ua/p1009254162-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 25.42579436302185
+90 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:17:15 2019 https://prom.ua/ua/p1024265788-polutornyj-komplekt-postelnogo.html is collected succesfully!
+Current operation took 22.758740186691284
+91 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:17:35 2019 https://prom.ua/ua/p1093080838-postelnoe-bele-byaz.html is collected succesfully!
+Current operation took 19.509743452072144
+92 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+46
+47
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:18:53 2019 https://prom.ua/ua/p844227975-postelnoe-bele-tet.html is collected succesfully!
+Current operation took 21.30867576599121
+0 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:19:20 2019 https://prom.ua/ua/p279926157-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 26.749287128448486
+1 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:19:36 2019 https://prom.ua/ua/p1086092456-evro-komplekt-postelnogo.html is collected succesfully!
+Current operation took 16.19656777381897
+2 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:20:12 2019 https://prom.ua/ua/p1079489033-postelnoe-belyo-satin.html is collected succesfully!
+Current operation took 35.94734477996826
+3 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:20:35 2019 https://prom.ua/ua/p870820971-postelnoe-belyo-byaz.html is collected succesfully!
+Current operation took 23.380111694335938
+4 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:20:53 2019 https://prom.ua/ua/p985580985-komplekt-postelnogo-polutornyj.html is collected succesfully!
+Current operation took 17.670135736465454
+5 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:21:23 2019 https://prom.ua/ua/p1080748540-stilnoe-postelnoe-bele.html is collected succesfully!
+Current operation took 30.523820638656616
+6 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:21:50 2019 https://prom.ua/ua/p561373026-dvuspalnoe-postelnoe-bele.html is collected succesfully!
+Current operation took 26.5666663646698
+7 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:22:12 2019 https://prom.ua/ua/p1069937797-postelnoe-bele-luxyart.html is collected succesfully!
+Current operation took 21.67192029953003
+8 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:22:37 2019 https://prom.ua/ua/p970975964-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 25.688961505889893
+9 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:23:08 2019 https://prom.ua/ua/p1019476935-odnotonnoe-postelnoe-dvuspalnoe.html is collected succesfully!
+Current operation took 31.02287793159485
+10 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:23:33 2019 https://prom.ua/ua/p1010603873-postelnoe-bele-semejnyj.html is collected succesfully!
+Current operation took 24.819627046585083
+11 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:23:55 2019 https://prom.ua/ua/p906482291-postelnoe-bele-satina.html is collected succesfully!
+Current operation took 21.98671793937683
+12 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:24:17 2019 https://prom.ua/ua/p1085875470-polutornyj-komplekt-postelnogo.html is collected succesfully!
+Current operation took 21.829989671707153
+13 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:24:44 2019 https://prom.ua/ua/p967829500-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 27.421110153198242
+14 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:25:10 2019 https://prom.ua/ua/p1013281155-komplekt-polutornogo-postelnogo.html is collected succesfully!
+Current operation took 25.571435689926147
+15 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:25:24 2019 https://prom.ua/ua/p798883602-postelnoe-bele-vilyuta.html is collected succesfully!
+Current operation took 13.669877290725708
+16 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:25:48 2019 https://prom.ua/ua/p948633567-evro-komplekt-postelnogo.html is collected succesfully!
+Current operation took 24.520543575286865
+17 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:26:12 2019 https://prom.ua/ua/p1019782799-komplekt-vzroslogo-postelnogo.html is collected succesfully!
+Current operation took 24.103217601776123
+18 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:26:41 2019 https://prom.ua/ua/p1067819563-postelnoe-bele-polutornyj.html is collected succesfully!
+Current operation took 29.184114933013916
+19 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:26:57 2019 https://prom.ua/ua/p1079542813-postelnoe-bele-semejnoe.html is collected succesfully!
+Current operation took 15.243058443069458
+20 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:27:17 2019 https://prom.ua/ua/p1033925950-postelnoe-bele-komplekt.html is collected succesfully!
+Current operation took 20.39138126373291
+21 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:27:31 2019 https://prom.ua/ua/p715679266-dvuhspalnyj-komplekt-hotel.html is collected succesfully!
+Current operation took 13.622406482696533
+22 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:27:55 2019 https://prom.ua/ua/p1024260260-yevrokomplekt-postilnoyi-bilizni.html is collected succesfully!
+Current operation took 24.0709125995636
+23 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:28:12 2019 https://prom.ua/ua/p1034405592-postelnoe-bele-lemoon.html is collected succesfully!
+Current operation took 17.256361484527588
+24 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:28:26 2019 https://prom.ua/ua/p1066611442-dvuspalnyj-komplekt-ranforsa.html is collected succesfully!
+Current operation took 13.638855457305908
+25 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:28:43 2019 https://prom.ua/ua/p1034001945-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 17.91789436340332
+26 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:29:06 2019 https://prom.ua/ua/p1007526767-postelnoe-bele-dvuspalnoe.html is collected succesfully!
+Current operation took 22.435989379882812
+27 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:29:41 2019 https://prom.ua/ua/p733855596-semejnoe-postelnoe-belyo.html is collected succesfully!
+Current operation took 35.00500845909119
+28 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:30:04 2019 https://prom.ua/ua/p1060650549-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 22.78690791130066
+29 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:30:33 2019 https://prom.ua/ua/p951761042-eksklyuzivnoe-postelnoe-bele.html is collected succesfully!
+Current operation took 29.593913316726685
+30 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:30:53 2019 https://prom.ua/ua/p972273653-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 19.718159437179565
+31 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:31:02 2019 https://prom.ua/ua/p1000553412-postelnyj-komplekt-dvuspalnyj.html is collected succesfully!
+Current operation took 9.375736474990845
+32 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:31:15 2019 https://prom.ua/ua/p713626009-satin-lyuksevro-komplekt.html is collected succesfully!
+Current operation took 12.230967283248901
+33 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:31:29 2019 https://prom.ua/ua/p1084832267-postelnoe-bele-byaz.html is collected succesfully!
+Current operation took 14.458113193511963
+34 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:31:40 2019 https://prom.ua/ua/p478610894-9788-postelnoe-bele.html is collected succesfully!
+Current operation took 11.392268180847168
+35 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:31:59 2019 https://prom.ua/ua/p1065632840-postelnoe-bele-vilyuta.html is collected succesfully!
+Current operation took 18.564807415008545
+36 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:32:09 2019 https://prom.ua/ua/p913488699-postelnoe-belyo-byaz.html is collected succesfully!
+Current operation took 10.027859687805176
+37 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:32:22 2019 https://prom.ua/ua/p1086092451-polutornyj-komplekt-postelnogo.html is collected succesfully!
+Current operation took 12.665716886520386
+38 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:32:37 2019 https://prom.ua/ua/p625890146-postelnoe-bele-tet.html is collected succesfully!
+Current operation took 15.44643783569336
+39 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:32:49 2019 https://prom.ua/ua/p1067363532-postelnoe-bele-luxyart.html is collected succesfully!
+Current operation took 11.438209533691406
+40 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:33:08 2019 https://prom.ua/ua/p999324619-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 19.6694233417511
+41 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:33:23 2019 https://prom.ua/ua/p717103668-postelnoe-belyo-dvuspalnoe.html is collected succesfully!
+Current operation took 14.542354106903076
+42 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:33:41 2019 https://prom.ua/ua/p1029791952-kotikipolutornyj-komplekt-postelnogo.html is collected succesfully!
+Current operation took 17.795257329940796
+43 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:33:56 2019 https://prom.ua/ua/p994042329-bele-postelnoe-satina.html is collected succesfully!
+Current operation took 15.573388576507568
+44 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:34:16 2019 https://prom.ua/ua/p908157568-komplekt-postilnoyi-bilizni.html is collected succesfully!
+Current operation took 19.4857656955719
+45 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:34:28 2019 https://prom.ua/ua/p1094578002-evro-komplekt-postelnogo.html is collected succesfully!
+Current operation took 11.87474250793457
+46 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:34:45 2019 https://prom.ua/ua/p1093080838-postelnoe-bele-byaz.html is collected succesfully!
+Current operation took 17.70700693130493
+47 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:35:01 2019 https://prom.ua/ua/p1078292646-postelnyj-komplekt-prestige.html is collected succesfully!
+Current operation took 15.97751760482788
+48 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:35:22 2019 https://prom.ua/ua/p1019476870-polutornyj-komplekt-postelnogo.html is collected succesfully!
+Current operation took 20.635565042495728
+49 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:35:37 2019 https://prom.ua/ua/p858011148-spalnoe-postelnoe-bele.html is collected succesfully!
+Current operation took 15.34084701538086
+50 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:35:50 2019 https://prom.ua/ua/p1067888137-dvuspalnyj-komplekt-postelnogo.html is collected succesfully!
+Current operation took 12.351346969604492
+51 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:36:00 2019 https://prom.ua/ua/p1012322116-semejnyj-komplekt-postelnogo.html is collected succesfully!
+Current operation took 10.76511526107788
+52 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:36:12 2019 https://prom.ua/ua/p1036824808-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 11.211755990982056
+53 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:36:22 2019 https://prom.ua/ua/p1006909367-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 10.795050621032715
+54 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:36:40 2019 https://prom.ua/ua/p1053757058-postelnoe-bele-odnotonnoe.html is collected succesfully!
+Current operation took 18.106231212615967
+55 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:36:53 2019 https://prom.ua/ua/p976002301-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 12.537954330444336
+56 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:37:02 2019 https://prom.ua/ua/p1084832235-postelnoe-bele-polutornyj.html is collected succesfully!
+Current operation took 9.309123277664185
+57 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:37:22 2019 https://prom.ua/ua/p1094402221-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 20.086445331573486
+58 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:37:37 2019 https://prom.ua/ua/p1079543222-dvuspalnyj-komplekt-postelnogo.html is collected succesfully!
+Current operation took 14.343538045883179
+59 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:37:52 2019 https://prom.ua/ua/p856323733-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 15.206843137741089
+60 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:38:09 2019 https://prom.ua/ua/p1077347815-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 16.925966501235962
+61 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:38:21 2019 https://prom.ua/ua/p1089954774-postelnyj-komplekt-byaz.html is collected succesfully!
+Current operation took 11.699909210205078
+62 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:38:33 2019 https://prom.ua/ua/p1031316103-postelnoe-bele-satin.html is collected succesfully!
+Current operation took 12.674757719039917
+63 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:38:44 2019 https://prom.ua/ua/p996884892-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 11.038641929626465
+64 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:38:56 2019 https://prom.ua/ua/p1093218016-pled-konvert.html is collected succesfully!
+Current operation took 12.157302856445312
+65 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:39:07 2019 https://prom.ua/ua/p865359421-postelnoe-bele-hlopok.html is collected succesfully!
+Current operation took 10.12923550605774
+66 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:39:21 2019 https://prom.ua/ua/p1033715121-stilnyj-komplekt-postelnogo.html is collected succesfully!
+Current operation took 14.123252153396606
+67 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:39:29 2019 https://prom.ua/ua/p1007096250-postelnyj-komplekt-predmeta.html is collected succesfully!
+Current operation took 8.094655513763428
+68 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:39:38 2019 https://prom.ua/ua/p900601503-postelnoe-bele-satina.html is collected succesfully!
+Current operation took 9.566338062286377
+69 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:39:55 2019 https://prom.ua/ua/p950942602-postelnoe-belyo-19004.html is collected succesfully!
+Current operation took 16.625566959381104
+70 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:40:09 2019 https://prom.ua/ua/p1089232960-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 14.023645639419556
+71 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:40:18 2019 https://prom.ua/ua/p1053235925-postelnoe-bele-tsvet.html is collected succesfully!
+Current operation took 9.271078109741211
+72 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:40:27 2019 https://prom.ua/ua/p918960765-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 9.206133842468262
+73 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:40:39 2019 https://prom.ua/ua/p903723328-postelnoe-bele-satina.html is collected succesfully!
+Current operation took 11.167847394943237
+74 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:40:55 2019 https://prom.ua/ua/p910187922-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 15.91774606704712
+75 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:41:04 2019 https://prom.ua/ua/p1069825353-polutornyj-nabor-postelnogo.html is collected succesfully!
+Current operation took 9.341707229614258
+76 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:41:20 2019 https://prom.ua/ua/p1081288332-postilnij-komplekt-love.html is collected succesfully!
+Current operation took 16.39643359184265
+77 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:41:38 2019 https://prom.ua/ua/p1080390852-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 17.722201585769653
+78 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:41:51 2019 https://prom.ua/ua/p911286016-kpb-amore-evro.html is collected succesfully!
+Current operation took 13.342954635620117
+79 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:42:07 2019 https://prom.ua/ua/p1022347940-postelnyj-komplekt-viluta.html is collected succesfully!
+Current operation took 15.45751428604126
+80 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:42:16 2019 https://prom.ua/ua/p1047905850-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 8.743362426757812
+81 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:42:29 2019 https://prom.ua/ua/p964733428-postelnoe-belyo-evro.html is collected succesfully!
+Current operation took 13.11876130104065
+82 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:42:46 2019 https://prom.ua/ua/p1010511486-postelnyj-komplekt-prestige.html is collected succesfully!
+Current operation took 17.64810824394226
+83 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:42:59 2019 https://prom.ua/ua/p1016413857-komplekt-vzroslogo-postelnogo.html is collected succesfully!
+Current operation took 12.40329885482788
+84 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:43:09 2019 https://prom.ua/ua/p1077153381-komplekt-vzroslogo-postelnogo.html is collected succesfully!
+Current operation took 10.194791316986084
+85 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:43:18 2019 https://prom.ua/ua/p1084326661-9844-postelnoe-bele.html is collected succesfully!
+Current operation took 9.397447347640991
+86 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:43:34 2019 https://prom.ua/ua/p1017931470-polutornyj-komplekt-postelnogo.html is collected succesfully!
+Current operation took 16.0840060710907
+87 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:43:49 2019 https://prom.ua/ua/p959829167-postel-tsvetochnym-risunkom.html is collected succesfully!
+Current operation took 14.333564043045044
+88 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:44:09 2019 https://prom.ua/ua/p1014064267-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 20.154980659484863
+89 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:44:24 2019 https://prom.ua/ua/p854149899-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 14.800644874572754
+90 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:44:38 2019 https://prom.ua/ua/p1001391326-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 14.238488912582397
+91 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:44:50 2019 https://prom.ua/ua/p1060877820-polutornoe-postelnoe-bele.html is collected succesfully!
+Current operation took 12.517070293426514
+92 / 93
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+46
+46
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:45:17 2019 https://prom.ua/ua/p1029791952-kotikipolutornyj-komplekt-postelnogo.html is collected succesfully!
+Current operation took 8.797771453857422
+0 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:45:25 2019 https://prom.ua/ua/p994042329-bele-postelnoe-satina.html is collected succesfully!
+Current operation took 8.467209577560425
+1 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:45:40 2019 https://prom.ua/ua/p908157568-komplekt-postilnoyi-bilizni.html is collected succesfully!
+Current operation took 14.873069524765015
+2 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:45:55 2019 https://prom.ua/ua/p1038108293-postelnoe-bele-byaz.html is collected succesfully!
+Current operation took 14.95052456855774
+3 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:46:07 2019 https://prom.ua/ua/p1074284975-postelnoe-bele-evro.html is collected succesfully!
+Current operation took 11.428420066833496
+4 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:46:18 2019 https://prom.ua/ua/p859489496-postelnoe-belyo-byaz.html is collected succesfully!
+Current operation took 11.215482950210571
+5 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:46:40 2019 https://prom.ua/ua/p1071615892-postelnoe-bele-evro.html is collected succesfully!
+Current operation took 21.81397008895874
+6 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:46:49 2019 https://prom.ua/ua/p1079461326-postelnoe-bele-polutornoe.html is collected succesfully!
+Current operation took 9.405045509338379
+7 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:47:01 2019 https://prom.ua/ua/p1044812152-postelnoe-bele-satin.html is collected succesfully!
+Current operation took 11.94179892539978
+8 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:47:22 2019 https://prom.ua/ua/p1094751208-postelnyj-komplekt-moon.html is collected succesfully!
+Current operation took 21.078464031219482
+9 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:47:32 2019 https://prom.ua/ua/p276728284-gostinichnoe-postelnoe-bele.html is collected succesfully!
+Current operation took 9.673980712890625
+10 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:47:41 2019 https://prom.ua/ua/p1081285750-postilnij-komplekt-love.html is collected succesfully!
+Current operation took 9.55445647239685
+11 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:47:58 2019 https://prom.ua/ua/p1094363558-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 16.434359550476074
+12 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:48:06 2019 https://prom.ua/ua/p498057628-postelnoe-bele-grey.html is collected succesfully!
+Current operation took 8.140451669692993
+13 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:48:21 2019 https://prom.ua/ua/p870680433-polutornyj-komplekt-nyu.html is collected succesfully!
+Current operation took 15.115827560424805
+14 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:48:31 2019 https://prom.ua/ua/p1068993639-evro-maksi-komplekt.html is collected succesfully!
+Current operation took 10.091095924377441
+15 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:48:48 2019 https://prom.ua/ua/p1082200691-tag-komplekt-postelnogo.html is collected succesfully!
+Current operation took 17.114933252334595
+16 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:49:07 2019 https://prom.ua/ua/p883880610-306-postelnoe-bele.html is collected succesfully!
+Current operation took 18.277893543243408
+17 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:49:20 2019 https://prom.ua/ua/p1018611012-semejnyj-komplekt-postelnogo.html is collected succesfully!
+Current operation took 13.76714038848877
+18 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:49:29 2019 https://prom.ua/ua/p1013281294-komplekt-semejnogo-postelnogo.html is collected succesfully!
+Current operation took 8.670301914215088
+19 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:49:36 2019 https://prom.ua/ua/p871358694-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 7.333251237869263
+20 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:49:52 2019 https://prom.ua/ua/p660689522-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 15.709630250930786
+21 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:50:13 2019 https://prom.ua/ua/p892136670-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 20.695785999298096
+22 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:50:28 2019 https://prom.ua/ua/p1069937797-postelnoe-bele-luxyart.html is collected succesfully!
+Current operation took 14.872765302658081
+23 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:50:39 2019 https://prom.ua/ua/p999324684-sovremennyj-polutornyj-komplekt.html is collected succesfully!
+Current operation took 11.020329713821411
+24 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:50:46 2019 https://prom.ua/ua/p1010603874-postelnoe-bele-semejnyj.html is collected succesfully!
+Current operation took 7.8176116943359375
+25 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:51:04 2019 https://prom.ua/ua/p985461247-postelnoe-bele.html is collected succesfully!
+Current operation took 17.631457805633545
+26 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:51:12 2019 https://prom.ua/ua/p1066611442-dvuspalnyj-komplekt-ranforsa.html is collected succesfully!
+Current operation took 8.323245525360107
+27 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:51:27 2019 https://prom.ua/ua/p844231094-postelnoe-bele-tet.html is collected succesfully!
+Current operation took 14.895680665969849
+28 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:51:42 2019 https://prom.ua/ua/p1086092454-polutornyj-komplekt-postelnogo.html is collected succesfully!
+Current operation took 14.32768177986145
+29 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:51:50 2019 https://prom.ua/ua/p1070848830-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 8.828910827636719
+30 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:52:07 2019 https://prom.ua/ua/p845708083-postelnoe-belyobyazdvuhspalnyj-komplekt.html is collected succesfully!
+Current operation took 16.772051095962524
+31 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:52:18 2019 https://prom.ua/ua/p445361382-postelnoe-bele-tep.html is collected succesfully!
+Current operation took 11.07740330696106
+32 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:52:27 2019 https://prom.ua/ua/p1060650540-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 8.661237955093384
+33 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:52:35 2019 https://prom.ua/ua/p1000553408-postelnyj-komplekt-polutornyj.html is collected succesfully!
+Current operation took 8.263785123825073
+34 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:52:53 2019 https://prom.ua/ua/p915755671-postelnoe-bele-viluta.html is collected succesfully!
+Current operation took 17.766565561294556
+35 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:53:09 2019 https://prom.ua/ua/p1032425911-postelnoe-bele-luxyart.html is collected succesfully!
+Current operation took 15.487282752990723
+36 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:53:26 2019 https://prom.ua/ua/p1065903799-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 17.84313130378723
+37 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:53:44 2019 https://prom.ua/ua/p999324644-polutornoe-postelnoe-bele.html is collected succesfully!
+Current operation took 17.82160449028015
+38 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:54:03 2019 https://prom.ua/ua/p1058627154-polutornyj-komplekt-postelnogo.html is collected succesfully!
+Current operation took 18.60015368461609
+39 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:54:18 2019 https://prom.ua/ua/p1059134702-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 15.496469736099243
+40 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:54:31 2019 https://prom.ua/ua/p560875171-postelnoe-bele-casa.html is collected succesfully!
+Current operation took 12.813575506210327
+41 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:54:42 2019 https://prom.ua/ua/p844490182-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 11.29147481918335
+42 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:55:00 2019 https://prom.ua/ua/p773632645-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 17.639495134353638
+43 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:55:10 2019 https://prom.ua/ua/p863247374-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 9.488296031951904
+44 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:55:20 2019 https://prom.ua/ua/p1080782461-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 10.12425422668457
+45 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:55:41 2019 https://prom.ua/ua/p1075462016-polutornyj-komplekt-postelnogo.html is collected succesfully!
+Current operation took 21.84564757347107
+46 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:55:52 2019 https://prom.ua/ua/p1013281334-komplekt-polutornogo-postelnogo.html is collected succesfully!
+Current operation took 10.954303741455078
+47 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:56:07 2019 https://prom.ua/ua/p1049614265-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 14.7109534740448
+48 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:56:18 2019 https://prom.ua/ua/p1088469255-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 10.476221084594727
+49 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:56:27 2019 https://prom.ua/ua/p1075268436-polutornoe-postelnoe-bele.html is collected succesfully!
+Current operation took 9.688127040863037
+50 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:56:39 2019 https://prom.ua/ua/p1078462285-polutornyj-komplekt-vilyuta.html is collected succesfully!
+Current operation took 11.635553121566772
+51 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
+Wed Dec 11 19:56:57 2019 https://prom.ua/ua/p1051475169-komplekt-postelnogo-belya.html is collected succesfully!
+Current operation took 18.277737617492676
+52 / 92
+
+Checking for proxy: 189.57.62.146:80
+200
+Chosen proxy is 189.57.62.146:80
