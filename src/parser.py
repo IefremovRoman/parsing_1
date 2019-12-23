@@ -20,14 +20,13 @@ from openpyxl import Workbook
 from proxy_collector import get_proxy_list
 
 print()
-print('Prom.ua parser started at', time.ctime())
+print('___.___ parser started at', time.ctime())
 
 # Main links
-PAGE_CONSUMER, PAGE_B2B = 'https://prom.ua/ua/consumer-goods', 'https://prom.ua/ua/b2b'
-TEST_PAGE = 'https://prom.ua/ua/Kupuj-ukrayinske'
+TEST_PAGE = ''
 
 # Excel preparations
-EXCEL_FILE = 'prom_ua.xlsx'
+EXCEL_FILE = 'parsing_result.xlsx'
 
 if not os.path.isfile(EXCEL_FILE):
     wb = Workbook()
@@ -333,14 +332,11 @@ def DFS(parent_link, headers, session, cat_name=None):
         CATEGORY_ITEMS = scrap_controller(parent_link, headers, session)
         xls_writer(CATEGORY_ITEMS, cat_name)
 
-#DFS(TEST_PAGE, headers, session)
-
-# Getting consumer goods (to .xlsx)
-DFS(PAGE_CONSUMER, headers, session)
-
-# Getting b2b goods (to .xlsx)
-DFS(PAGE_B2B, headers, session)
-
+# Getting items from TEST_PAGE sub-sub-sub...-category (to .xlsx)
+if TEST_PAGE:
+    DFS(TEST_PAGE, headers, session)
+else:
+    print('Put right TEST_PAGE')
 
 print('\n')
 print(32 * '=','END',32 * '=')
